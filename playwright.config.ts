@@ -22,32 +22,65 @@ export default defineConfig({
   projects: [
     {
       name: 'e2e-chromium',
+
       testMatch: /.*\.e2e\.spec\.ts/,
+
       use: {
         ...devices['Desktop Chrome'],
+
         baseURL: 'https://www.pichincha.com',
+
+        viewport: null,
+
         launchOptions: {
           args: ['--start-maximized'],
         },
-        viewport: null,
+
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'on-first-retry',
       },
     },
 
     {
       name: 'e2e-firefox',
+
       testMatch: /.*\.e2e\.spec\.ts/,
+
       use: {
         ...devices['Desktop Firefox'],
+
         baseURL: 'https://www.pichincha.com',
+
+        viewport: {
+          width: 1920,
+          height: 1080,
+        },
+
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'on-first-retry',
       },
     },
 
     {
       name: 'e2e-webkit',
+
       testMatch: /.*\.e2e\.spec\.ts/,
+
       use: {
         ...devices['Desktop Safari'],
+
         baseURL: 'https://www.pichincha.com',
+
+        viewport: {
+          width: 1440,
+          height: 900,
+        },
+
+        screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
+        trace: 'on-first-retry',
       },
     },
 

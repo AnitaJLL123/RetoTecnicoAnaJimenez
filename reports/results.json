@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 7
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 3
         },
         "id": "e2e-chromium",
         "name": "e2e-chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 3
         },
         "id": "e2e-firefox",
         "name": "e2e-firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 3
         },
         "id": "e2e-webkit",
         "name": "e2e-webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 3
         },
         "id": "api",
         "name": "api",
@@ -110,374 +110,175 @@
   },
   "suites": [
     {
-      "title": "api\\products.api.spec.ts",
-      "file": "api/products.api.spec.ts",
+      "title": "e2e\\simulador-credito.e2e.spec.ts",
+      "file": "e2e/simulador-credito.e2e.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "@api Fake Store API - Products",
-          "file": "api/products.api.spec.ts",
-          "line": 6,
-          "column": 6,
-          "specs": [
+          "title": "@e2e flujo básico del simulador de crédito",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
             {
-              "title": "@api Caso 1: Obtener producto específico",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8,
+                  "error": {
+                    "message": "Error: browser.newContext: \"deviceScaleFactor\" option is not supported with null \"viewport\"",
+                    "stack": "Error: browser.newContext: \"deviceScaleFactor\" option is not supported with null \"viewport\""
+                  },
+                  "errors": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 655,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.548Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-310c0-Obtener-producto-específico-api\\trace.zip"
-                        }
-                      ]
+                      "message": "Error: browser.newContext: \"deviceScaleFactor\" option is not supported with null \"viewport\""
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-95876b788707e5ad4e49",
-              "file": "api/products.api.spec.ts",
-              "line": 13,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 2: Listar productos por categoría electronics",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T01:36:44.318Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
+                  "attachments": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 804,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.699Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-d0ed0-s-por-categoría-electronics-api\\trace.zip"
-                        }
-                      ]
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-simulador-credito.e2e--2769b-co-del-simulador-de-crédito-e2e-chromium\\error-context.md"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "a105959f8b2fc909d662-30ca363f6c83a5eaa748",
-              "file": "api/products.api.spec.ts",
-              "line": 26,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 3: Crear producto exitosamente",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 656,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.544Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-a2b8f-Crear-producto-exitosamente-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-eabceac9d03e0163abb7",
-              "file": "api/products.api.spec.ts",
-              "line": 39,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 4: Actualizar producto completo",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 1292,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.615Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-5585f-ctualizar-producto-completo-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-cef4d90a7dbca512aa1d",
-              "file": "api/products.api.spec.ts",
-              "line": 53,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 5: Producto no encontrado",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 572,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.611Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-72eaf-so-5-Producto-no-encontrado-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-171a9003c0fd9c8a7853",
-              "file": "api/products.api.spec.ts",
-              "line": 67,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 6: Categoría inválida",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 652,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.802Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-74af8-i-Caso-6-Categoría-inválida-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-01934c302843e7510a86",
-              "file": "api/products.api.spec.ts",
-              "line": 79,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 7: Crear producto con payload vacío",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 6,
-                      "parallelIndex": 6,
-                      "status": "passed",
-                      "duration": 569,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:52.619Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-94b21--producto-con-payload-vacío-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-dc32900bf0a5f71b9806",
-              "file": "api/products.api.spec.ts",
-              "line": 92,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 8: Validación de límite de productos",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 612,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T00:56:53.275Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-244bd-ción-de-límite-de-productos-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-18e72af6612f8e8ea691",
-              "file": "api/products.api.spec.ts",
-              "line": 102,
-              "column": 7
+              "status": "unexpected"
             }
-          ]
+          ],
+          "id": "d62bf85985e7b8a6a563-630e1c2a6146fef15964",
+          "file": "e2e/simulador-credito.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e flujo básico del simulador de crédito",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 21621,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[\n  \u001b[32m'PRECISO'\u001b[39m,\n  \u001b[32m'LINEA ABIERTA'\u001b[39m,\n  \u001b[32m'HIPOTECARIO VIVIENDA'\u001b[39m,\n  \u001b[32m'VIVIENDA DE INTERÉS PÚBLICO'\u001b[39m,\n  \u001b[32m'VIVIENDA DE INTERÉS SOCIAL'\u001b[39m,\n  \u001b[32m'EDUCACIÓN SUPERIOR'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazos: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Click en Simular ejecutado\n"
+                    },
+                    {
+                      "text": "Valores encontrados: [ \u001b[32m'$482,29'\u001b[39m, \u001b[32m'$39,00'\u001b[39m, \u001b[32m'$4,23'\u001b[39m, \u001b[32m'$525,52'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Cuota mensual: $525,52\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T01:36:44.310Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d62bf85985e7b8a6a563-996b94fdbd8a1ee94b72",
+          "file": "e2e/simulador-credito.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e flujo básico del simulador de crédito",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 11309,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[\n  \u001b[32m'PRECISO'\u001b[39m,\n  \u001b[32m'LINEA ABIERTA'\u001b[39m,\n  \u001b[32m'HIPOTECARIO VIVIENDA'\u001b[39m,\n  \u001b[32m'VIVIENDA DE INTERÉS PÚBLICO'\u001b[39m,\n  \u001b[32m'VIVIENDA DE INTERÉS SOCIAL'\u001b[39m,\n  \u001b[32m'EDUCACIÓN SUPERIOR'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazos: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Click en Simular ejecutado\n"
+                    },
+                    {
+                      "text": "Valores encontrados: [ \u001b[32m'$482,29'\u001b[39m, \u001b[32m'$39,00'\u001b[39m, \u001b[32m'$4,23'\u001b[39m, \u001b[32m'$525,52'\u001b[39m ]\n"
+                    },
+                    {
+                      "text": "Cuota mensual: $525,52\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T01:36:44.374Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d62bf85985e7b8a6a563-2edca64e2d1bc7bdebd8",
+          "file": "e2e/simulador-credito.e2e.spec.ts",
+          "line": 5,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-15T00:56:51.440Z",
-    "duration": 2551.764,
-    "expected": 8,
+    "startTime": "2026-05-15T01:36:43.766Z",
+    "duration": 23877.641,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 1,
     "flaky": 0
   }
 }
