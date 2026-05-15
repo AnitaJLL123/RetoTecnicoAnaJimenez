@@ -6,8 +6,8 @@
 
 # Test info
 
-- Name: e2e\flujo1-credito-preciso.e2e.spec.ts.ts >> @e2e flujo q - Crédito preciso
-- Location: tests\e2e\flujo1-credito-preciso.e2e.spec.ts.ts:15:5
+- Name: e2e\flujo3-validaciones.e2e.spec.ts >> @e2e Flujo 3 - Validaciones de formularios financieros
+- Location: tests\e2e\flujo3-validaciones.e2e.spec.ts:5:5
 
 # Error details
 
@@ -19,9 +19,6 @@ Test timeout of 30000ms exceeded.
 Error: locator.click: Test timeout of 30000ms exceeded.
 Call log:
   - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)
-    - locator resolved to <div tabindex="0" class="bp-select-multiple__input-container">…</div>
-  - attempting click action
-    - waiting for element to be visible, enabled and stable
 
 ```
 
@@ -80,234 +77,215 @@ Call log:
                   - heading "Simulador de Crédito" [level=1] [ref=e53]
                   - paragraph [ref=e54]: Calcula tu cuota mensual basada en el valor del préstamo que deseas solicitar.
                 - img "Simulador de crédito." [ref=e56]
-            - button "Simulador de Crédito" [ref=e65]:
-              - paragraph [ref=e66]: Simulador de Crédito
-            - paragraph [ref=e74]:
-              - iframe [ref=e75]:
-                - generic [active] [ref=f1e1]:
-                  - generic [ref=f1e4]:
-                    - generic [ref=f1e5]:
-                      - heading "¿Que crédito necesitas?" [level=2] [ref=f1e7]:
-                        - generic: ¿Que crédito necesitas?
-                      - generic [ref=f1e12]:
-                        - paragraph [ref=f1e14]:
-                          - generic: Selecciona un tipo de crédito
-                        - generic [ref=f1e16] [cursor=pointer]:
-                          - generic: arrow_drop_down
-                    - generic:
-                      - generic: Tabla de amortización
-                      - generic: "Producto:"
-                      - generic: "Plazo (meses):"
-                      - generic: "Tasa de interés nominal:"
-                      - generic: "Tasa de interes efectiva anual:"
-                      - generic: "Capital:"
-                      - generic: "Total de interés:"
-                      - generic: "Total seguro de desgravamen:"
-                      - generic: Cuotas
-                      - generic: Fecha de pago
-                      - generic: Capital
-                      - generic: Interés
-                      - generic: Seguros desg.
-                      - generic: Seguro Incendios/Vehiculo
-                      - generic: Valor cuota
-                      - generic: Saldo
-                  - iframe [ref=f1e19]:
-                    - generic [ref=f4e6]:
-                      - text: protected by
-                      - strong [ref=f4e7]: reCAPTCHA
-            - article [ref=e81]:
-              - generic [ref=e82]:
-                - paragraph [ref=e83]: Beneficios
-                - heading "Descubre las ventajas de nuestros créditos." [level=2] [ref=e84]
-                - paragraph [ref=e86]: Explora los beneficios que tenemos para ti y así cubrir tus necesidades financieras.
-              - list [ref=e87]:
-                - listitem [ref=e88]:
-                  - article [ref=e90]:
-                    - generic [ref=e94]:
-                      - generic [ref=e95]: Imagen
-                      - img [ref=e97]
-                    - paragraph [ref=e98]: Flexibilidad en monto y plazo
-                - listitem [ref=e99]:
-                  - article [ref=e101]:
-                    - generic [ref=e105]:
-                      - generic [ref=e106]: Imagen
-                      - img [ref=e108]
-                    - paragraph [ref=e109]: Tasas competitivas
-                - listitem [ref=e110]:
-                  - article [ref=e112]:
-                    - generic [ref=e116]:
-                      - generic [ref=e117]: Imagen
-                      - img [ref=e119]
-                    - paragraph [ref=e120]: Créditos rápidos y efectivos
-            - article [ref=e126]:
-              - generic [ref=e127]:
-                - heading "Preguntas frecuentes" [level=2] [ref=e130]
-                - generic [ref=e132]:
+            - generic [ref=e63]:
+              - button "Simulador de Crédito" [ref=e65]:
+                - paragraph [ref=e66]: Simulador de Crédito
+              - navigation "Enlaces de salto al contenido" [ref=e68]:
+                - list [ref=e69]:
+                  - listitem [ref=e70] [cursor=pointer]:
+                    - link "Beneficios" [ref=e71]:
+                      - /url: "#beneficios"
+                  - listitem [ref=e72] [cursor=pointer]:
+                    - link "Preguntas Frecuentes" [ref=e73]:
+                      - /url: "#preguntas-frecuentes"
+            - paragraph [ref=e81]:
+              - iframe [ref=e82]:
+                
+            - article [ref=e88]:
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: Beneficios
+                - heading "Descubre las ventajas de nuestros créditos." [level=2] [ref=e91]
+                - paragraph [ref=e93]: Explora los beneficios que tenemos para ti y así cubrir tus necesidades financieras.
+              - list [ref=e94]:
+                - listitem [ref=e95]:
+                  - article [ref=e97]:
+                    - generic [ref=e101]:
+                      - generic [ref=e102]: Imagen
+                      - img [ref=e104]
+                    - paragraph [ref=e105]: Flexibilidad en monto y plazo
+                - listitem [ref=e106]:
+                  - article [ref=e108]:
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: Imagen
+                      - img [ref=e115]
+                    - paragraph [ref=e116]: Tasas competitivas
+                - listitem [ref=e117]:
+                  - article [ref=e119]:
+                    - generic [ref=e123]:
+                      - generic [ref=e124]: Imagen
+                      - img [ref=e126]
+                    - paragraph [ref=e127]: Créditos rápidos y efectivos
+            - article [ref=e133]:
+              - generic [ref=e134]:
+                - heading "Preguntas frecuentes" [level=2] [ref=e137]
+                - generic [ref=e139]:
                   - tablist
-                  - tabpanel "N/A" [ref=e134]:
-                    - generic [ref=e135]:
-                      - heading "¿Para qué sirve el simulador?" [level=3] [ref=e137]:
-                        - button "¿Para qué sirve el simulador?" [ref=e138] [cursor=pointer]
-                      - heading "¿Los valores son los finales?" [level=3] [ref=e140]:
-                        - button "¿Los valores son los finales?" [ref=e141] [cursor=pointer]
-                      - heading "¿Puedo simular más de una vez?" [level=3] [ref=e143]:
-                        - button "¿Puedo simular más de una vez?" [ref=e144] [cursor=pointer]
-    - contentinfo [ref=e145]:
-      - generic [ref=e146]:
-        - generic [ref=e147]:
-          - img "Banco Pichincha" [ref=e149]: ">"
-          - generic [ref=e153]:
-            - navigation "Menú de contacto del pie de página" [ref=e156]:
-              - paragraph [ref=e157]: Menú de contacto del pie de página
-              - list [ref=e158]:
-                - listitem [ref=e159]:
-                  - generic [ref=e160]: Contacto y ayuda
-                  - list [ref=e162]:
-                    - listitem [ref=e163]:
-                      - link " Centro de ayuda" [ref=e164] [cursor=pointer]:
+                  - tabpanel "N/A" [ref=e141]:
+                    - generic [ref=e142]:
+                      - heading "¿Para qué sirve el simulador?" [level=3] [ref=e144]:
+                        - button "¿Para qué sirve el simulador?" [ref=e145] [cursor=pointer]
+                      - heading "¿Los valores son los finales?" [level=3] [ref=e147]:
+                        - button "¿Los valores son los finales?" [ref=e148] [cursor=pointer]
+                      - heading "¿Puedo simular más de una vez?" [level=3] [ref=e150]:
+                        - button "¿Puedo simular más de una vez?" [ref=e151] [cursor=pointer]
+    - contentinfo [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - img "Banco Pichincha" [ref=e156]: ">"
+          - generic [ref=e160]:
+            - navigation "Menú de contacto del pie de página" [ref=e163]:
+              - paragraph [ref=e164]: Menú de contacto del pie de página
+              - list [ref=e165]:
+                - listitem [ref=e166]:
+                  - generic [ref=e167]: Contacto y ayuda
+                  - list [ref=e169]:
+                    - listitem [ref=e170]:
+                      - link " Centro de ayuda" [ref=e171] [cursor=pointer]:
                         - /url: https://soporte.pichincha.com/hc/es-419/
-                      - paragraph [ref=e167]: Consultas
-                    - listitem [ref=e168]:
-                      - link " Encuentra tu Banco" [ref=e169] [cursor=pointer]:
+                      - paragraph [ref=e174]: Consultas
+                    - listitem [ref=e175]:
+                      - link " Encuentra tu Banco" [ref=e176] [cursor=pointer]:
                         - /url: https://www.pichincha.com/mapa
-                      - paragraph [ref=e172]: Mapa
-                    - listitem [ref=e173]:
-                      - link " (02) 2999 999" [ref=e174] [cursor=pointer]:
+                      - paragraph [ref=e179]: Mapa
+                    - listitem [ref=e180]:
+                      - link " (02) 2999 999" [ref=e181] [cursor=pointer]:
                         - /url: tel:+593 22999 999
-                      - paragraph [ref=e177]: Banca telefónica
-                    - listitem [ref=e178]:
-                      - link " 096 299 2999" [ref=e179] [cursor=pointer]:
+                      - paragraph [ref=e184]: Banca telefónica
+                    - listitem [ref=e185]:
+                      - link " 096 299 2999" [ref=e186] [cursor=pointer]:
                         - /url: https://api.whatsapp.com/send/?phone=593962992999&text=&type=phone_number&app_absent=0
-                      - paragraph [ref=e182]: WhatsApp
-                - listitem [ref=e183]:
-                  - link "Sugerencias y reclamos" [ref=e184] [cursor=pointer]:
-                    - /url: /sugerencias-y-reclamos
-            - navigation "Pie de página" [ref=e187]:
-              - paragraph [ref=e188]: Pie de página
-              - list [ref=e189]:
+                      - paragraph [ref=e189]: WhatsApp
                 - listitem [ref=e190]:
-                  - generic [ref=e191]: Canales de atención
-                  - list [ref=e192]:
-                    - listitem [ref=e193]:
-                      - link "Banca Web" [ref=e194] [cursor=pointer]:
+                  - link "Sugerencias y reclamos" [ref=e191] [cursor=pointer]:
+                    - /url: /sugerencias-y-reclamos
+            - navigation "Pie de página" [ref=e194]:
+              - paragraph [ref=e195]: Pie de página
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - generic [ref=e198]: Canales de atención
+                  - list [ref=e199]:
+                    - listitem [ref=e200]:
+                      - link "Banca Web" [ref=e201] [cursor=pointer]:
                         - /url: /banca-web
-                    - listitem [ref=e195]:
-                      - link "Banca Móvil" [ref=e196] [cursor=pointer]:
+                    - listitem [ref=e202]:
+                      - link "Banca Móvil" [ref=e203] [cursor=pointer]:
                         - /url: /banca-movil
-                    - listitem [ref=e197]:
-                      - link "Mi Vecino" [ref=e198] [cursor=pointer]:
+                    - listitem [ref=e204]:
+                      - link "Mi Vecino" [ref=e205] [cursor=pointer]:
                         - /url: /mi-vecino
-                    - listitem [ref=e199]:
-                      - link "Deuna!" [ref=e200] [cursor=pointer]:
-                        - /url: /deuna
-                    - listitem [ref=e201]:
-                      - link "Ver todos" [ref=e202] [cursor=pointer]:
-                        - /url: /detalle-catalogo/personas-servicios
-                - listitem [ref=e203]:
-                  - generic [ref=e204]: Para tu interés
-                  - list [ref=e205]:
                     - listitem [ref=e206]:
-                      - link "Crédito de consumo" [ref=e207] [cursor=pointer]:
-                        - /url: /detalle-producto/personas-prestamo-linea-abierta
+                      - link "Deuna!" [ref=e207] [cursor=pointer]:
+                        - /url: /deuna
                     - listitem [ref=e208]:
-                      - link "Crédito hipotecario" [ref=e209] [cursor=pointer]:
+                      - link "Ver todos" [ref=e209] [cursor=pointer]:
+                        - /url: /detalle-catalogo/personas-servicios
+                - listitem [ref=e210]:
+                  - generic [ref=e211]: Para tu interés
+                  - list [ref=e212]:
+                    - listitem [ref=e213]:
+                      - link "Crédito de consumo" [ref=e214] [cursor=pointer]:
+                        - /url: /detalle-producto/personas-prestamo-linea-abierta
+                    - listitem [ref=e215]:
+                      - link "Crédito hipotecario" [ref=e216] [cursor=pointer]:
                         - /url: /detalle-producto/personas-credito-hipotecario-de-vivienda
-                    - listitem [ref=e210]:
-                      - link "Cuenta de ahorro flexible" [ref=e211] [cursor=pointer]:
+                    - listitem [ref=e217]:
+                      - link "Cuenta de ahorro flexible" [ref=e218] [cursor=pointer]:
                         - /url: /detalle-producto/personas-cuentas-ahorro-flexible
-                    - listitem [ref=e212]:
-                      - link "Depósito a plazo" [ref=e213] [cursor=pointer]:
+                    - listitem [ref=e219]:
+                      - link "Depósito a plazo" [ref=e220] [cursor=pointer]:
                         - /url: /detalle-producto/personas-inversiones-plazodolar
-                    - listitem [ref=e214]:
-                      - link "Venta de bienes" [ref=e215] [cursor=pointer]:
+                    - listitem [ref=e221]:
+                      - link "Venta de bienes" [ref=e222] [cursor=pointer]:
                         - /url: https://www.pichincha.com/sites/default/files/documents/2026-04/bienes-a-la-venta-abril-2026.pdf
-                    - listitem [ref=e216]:
-                      - link "Programa Beta Testers" [ref=e217] [cursor=pointer]:
-                        - /url: /betatesters
-                    - listitem [ref=e218]:
-                      - link "Tips de seguridad" [ref=e219] [cursor=pointer]:
-                        - /url: /catalogo-seguridad
-                - listitem [ref=e220]:
-                  - generic [ref=e221]: Sobre nosotros
-                  - list [ref=e222]:
                     - listitem [ref=e223]:
-                      - link "Tasas y tarifas" [ref=e224] [cursor=pointer]:
-                        - /url: /transparencia
+                      - link "Programa Beta Testers" [ref=e224] [cursor=pointer]:
+                        - /url: /betatesters
                     - listitem [ref=e225]:
-                      - link "Trabaja con nosotros" [ref=e226] [cursor=pointer]:
-                        - /url: https://vacantes.pichincha.com/
-                    - listitem [ref=e227]:
-                      - link "¿Quiénes somos?" [ref=e228] [cursor=pointer]:
-                        - /url: /catalogo-conoce-tu-banco
-                    - listitem [ref=e229]:
-                      - link "Lo que ofrecemos" [ref=e230] [cursor=pointer]:
-                        - /url: /lo-que-ofrecemos
-                    - listitem [ref=e231]:
-                      - link "Transparencia" [ref=e232] [cursor=pointer]:
+                      - link "Tips de seguridad" [ref=e226] [cursor=pointer]:
+                        - /url: /catalogo-seguridad
+                - listitem [ref=e227]:
+                  - generic [ref=e228]: Sobre nosotros
+                  - list [ref=e229]:
+                    - listitem [ref=e230]:
+                      - link "Tasas y tarifas" [ref=e231] [cursor=pointer]:
                         - /url: /transparencia
-                    - listitem [ref=e233]:
-                      - link "Desarrollo sostenible" [ref=e234] [cursor=pointer]:
+                    - listitem [ref=e232]:
+                      - link "Trabaja con nosotros" [ref=e233] [cursor=pointer]:
+                        - /url: https://vacantes.pichincha.com/
+                    - listitem [ref=e234]:
+                      - link "¿Quiénes somos?" [ref=e235] [cursor=pointer]:
+                        - /url: /catalogo-conoce-tu-banco
+                    - listitem [ref=e236]:
+                      - link "Lo que ofrecemos" [ref=e237] [cursor=pointer]:
+                        - /url: /lo-que-ofrecemos
+                    - listitem [ref=e238]:
+                      - link "Transparencia" [ref=e239] [cursor=pointer]:
+                        - /url: /transparencia
+                    - listitem [ref=e240]:
+                      - link "Desarrollo sostenible" [ref=e241] [cursor=pointer]:
                         - /url: /catalogo-desarrollo-sostenible
-        - generic [ref=e235]:
-          - generic [ref=e236]:
-            - navigation "Menú de redes sociales del pie de página" [ref=e239]:
-              - paragraph [ref=e240]: Menú de redes sociales del pie de página
-              - list [ref=e241]:
-                - listitem [ref=e242]:
-                  - link "Instagram" [ref=e243] [cursor=pointer]:
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - navigation "Menú de redes sociales del pie de página" [ref=e246]:
+              - paragraph [ref=e247]: Menú de redes sociales del pie de página
+              - list [ref=e248]:
+                - listitem [ref=e249]:
+                  - link "Instagram" [ref=e250] [cursor=pointer]:
                     - /url: https://www.instagram.com/bancopichincha/
-                - listitem [ref=e244]:
-                  - link "Facebook" [ref=e245] [cursor=pointer]:
+                - listitem [ref=e251]:
+                  - link "Facebook" [ref=e252] [cursor=pointer]:
                     - /url: https://www.facebook.com/BancoPichinchaEcuador/
-                - listitem [ref=e246]:
-                  - link "X" [ref=e247] [cursor=pointer]:
+                - listitem [ref=e253]:
+                  - link "X" [ref=e254] [cursor=pointer]:
                     - /url: https://twitter.com/BancoPichincha
-                - listitem [ref=e248]:
-                  - link "Youtube" [ref=e249] [cursor=pointer]:
+                - listitem [ref=e255]:
+                  - link "Youtube" [ref=e256] [cursor=pointer]:
                     - /url: https://www.youtube.com/user/BancoPichinchaCA
-                - listitem [ref=e250]:
-                  - link "Linkedin" [ref=e251] [cursor=pointer]:
+                - listitem [ref=e257]:
+                  - link "Linkedin" [ref=e258] [cursor=pointer]:
                     - /url: https://www.linkedin.com/company/banco-pichincha-ca
-                - listitem [ref=e252]:
-                  - link "Tiktok" [ref=e253] [cursor=pointer]:
-                    - /url: https://www.tiktok.com/@bancopichincha
-            - navigation "Legal" [ref=e256]:
-              - paragraph [ref=e257]: Legal
-              - list [ref=e258]:
                 - listitem [ref=e259]:
-                  - link "Legal" [ref=e260] [cursor=pointer]:
+                  - link "Tiktok" [ref=e260] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@bancopichincha
+            - navigation "Legal" [ref=e263]:
+              - paragraph [ref=e264]: Legal
+              - list [ref=e265]:
+                - listitem [ref=e266]:
+                  - link "Legal" [ref=e267] [cursor=pointer]:
                     - /url: /informacion-legal
-                - listitem
-          - navigation "Apps" [ref=e263]:
-            - paragraph [ref=e264]: Apps
-            - list [ref=e265]:
-              - listitem [ref=e266]:
-                - generic [ref=e267]: Pichincha Banca Móvil
-                - generic [ref=e268]:
-                  - list [ref=e269]:
-                    - listitem [ref=e270]:
-                      - link "App store" [ref=e271] [cursor=pointer]:
+                - listitem [ref=e268]:
+                  - link "Política de cookies" [ref=e269] [cursor=pointer]:
+                    - /url: https://www.pichincha.com/politica-de-cookies
+          - navigation "Apps" [ref=e272]:
+            - paragraph [ref=e273]: Apps
+            - list [ref=e274]:
+              - listitem [ref=e275]:
+                - generic [ref=e276]: Pichincha Banca Móvil
+                - generic [ref=e277]:
+                  - list [ref=e278]:
+                    - listitem [ref=e279]:
+                      - link "App store" [ref=e280] [cursor=pointer]:
                         - /url: https://apps.apple.com/ec/app/pichincha-banca-movil/id999191728?mt=8
-                      - paragraph [ref=e274]:
-                        - img [ref=e275]
-                    - listitem [ref=e276]:
-                      - link "Play Store" [ref=e277] [cursor=pointer]:
+                      - paragraph [ref=e283]:
+                        - img [ref=e284]
+                    - listitem [ref=e285]:
+                      - link "Play Store" [ref=e286] [cursor=pointer]:
                         - /url: https://play.google.com/store/apps/details?id=com.yellowpepper.pichincha&hl=en_US
-                      - paragraph [ref=e280]:
-                        - img [ref=e281]
-                    - listitem [ref=e282]:
-                      - link "App gallery" [ref=e283] [cursor=pointer]:
+                      - paragraph [ref=e289]:
+                        - img [ref=e290]
+                    - listitem [ref=e291]:
+                      - link "App gallery" [ref=e292] [cursor=pointer]:
                         - /url: https://consumer.huawei.com/latin/mobileservices/appgallery/
-                      - paragraph [ref=e286]:
-                        - img [ref=e287]
-                  - paragraph [ref=e289]: Descarga nuestra aplicación
+                      - paragraph [ref=e295]:
+                        - img [ref=e296]
+                  - paragraph [ref=e298]: Descarga nuestra aplicación
   - generic:
-    - dialog "Privacy" [ref=e292]:
-      - generic [ref=e294]:
-        - generic [ref=e297]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
-        - generic [ref=e299]:
-          - button "Cookies Settings, Opens the preference center dialog" [ref=e300] [cursor=pointer]: Cookies Settings
-          - button "Accept All Cookies" [ref=e301] [cursor=pointer]
+    - dialog "Privacy" [ref=e301]:
+      - generic [ref=e303]:
+        - generic [ref=e306]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+        - generic [ref=e308]:
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e309] [cursor=pointer]: Cookies Settings
+          - button "Accept All Cookies" [ref=e310] [cursor=pointer]
     - text: Cookies Settings
 ```
 

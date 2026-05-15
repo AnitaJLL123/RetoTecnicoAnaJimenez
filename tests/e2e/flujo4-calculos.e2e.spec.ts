@@ -9,8 +9,8 @@ test('@e2e Flujo 4 - Validar diferentes escenarios de cálculo', async ({ page }
 
   const escenarios = [
     { tipo: 'PRECISO', monto: '3000', plazo: '6 meses' },
-    { tipo: 'PRECISO', monto: '5000', plazo: '12 meses' },
-    { tipo: 'PRECISO', monto: '8000', plazo: '24 meses' },
+    { tipo: 'PRECISO', monto: '5000', plazo: '1 año' },
+    { tipo: 'PRECISO', monto: '8000', plazo: '2 años' },
   ];
 
   for (const escenario of escenarios) {

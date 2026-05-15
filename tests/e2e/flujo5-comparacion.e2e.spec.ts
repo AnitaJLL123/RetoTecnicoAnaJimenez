@@ -9,7 +9,7 @@ test('@e2e Flujo 5 - Comparación crédito consumo vs hipotecario', async ({ pag
 
   await simulador.seleccionarTipoCredito('PRECISO');
   await simulador.ingresarMontoDeseado('30000');
-  await simulador.seleccionarPlazo('24 meses');
+  await simulador.seleccionarPlazo('1 año');
   await simulador.seleccionarAmortizacion();
   await simulador.simular();
 
@@ -18,7 +18,7 @@ test('@e2e Flujo 5 - Comparación crédito consumo vs hipotecario', async ({ pag
   await simulador.seleccionarTipoCredito('HIPOTECARIO VIVIENDA');
   await simulador.ingresarMontoVivienda('80000');
   await simulador.ingresarMontoDeseado('30000');
-  await simulador.seleccionarPlazo('60 meses');
+  await simulador.seleccionarPlazo('10 años');
   await simulador.seleccionarAmortizacion();
   await simulador.simular();
 
