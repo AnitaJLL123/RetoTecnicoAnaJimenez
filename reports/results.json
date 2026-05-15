@@ -1,0 +1,483 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\playwright.config.ts",
+    "rootDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 7
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "e2e-chromium",
+        "name": "e2e-chromium",
+        "testDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.e2e\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "e2e-firefox",
+        "name": "e2e-firefox",
+        "testDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.e2e\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "e2e-webkit",
+        "name": "e2e-webkit",
+        "testDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.e2e\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "api",
+        "name": "api",
+        "testDir": "C:/Users/ajimenll/OneDrive - NTT DATA EMEAL/Desktop/RetoQE/RetoTecnicoAnaJimenez/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.api\\.spec\\.ts/"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.60.0",
+    "workers": 7,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api\\products.api.spec.ts",
+      "file": "api/products.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "@api Fake Store API - Products",
+          "file": "api/products.api.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@api Caso 1: Obtener producto específico",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 655,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.548Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-310c0-Obtener-producto-específico-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-95876b788707e5ad4e49",
+              "file": "api/products.api.spec.ts",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 2: Listar productos por categoría electronics",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 804,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.699Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-d0ed0-s-por-categoría-electronics-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-30ca363f6c83a5eaa748",
+              "file": "api/products.api.spec.ts",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 3: Crear producto exitosamente",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 656,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.544Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-a2b8f-Crear-producto-exitosamente-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-eabceac9d03e0163abb7",
+              "file": "api/products.api.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 4: Actualizar producto completo",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1292,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.615Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-5585f-ctualizar-producto-completo-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-cef4d90a7dbca512aa1d",
+              "file": "api/products.api.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 5: Producto no encontrado",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 572,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.611Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-72eaf-so-5-Producto-no-encontrado-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-171a9003c0fd9c8a7853",
+              "file": "api/products.api.spec.ts",
+              "line": 67,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 6: Categoría inválida",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 652,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.802Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-74af8-i-Caso-6-Categoría-inválida-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-01934c302843e7510a86",
+              "file": "api/products.api.spec.ts",
+              "line": 79,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 7: Crear producto con payload vacío",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 569,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:52.619Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-94b21--producto-con-payload-vacío-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-dc32900bf0a5f71b9806",
+              "file": "api/products.api.spec.ts",
+              "line": 92,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 8: Validación de límite de productos",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 612,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T00:56:53.275Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-244bd-ción-de-límite-de-productos-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-18e72af6612f8e8ea691",
+              "file": "api/products.api.spec.ts",
+              "line": 102,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-15T00:56:51.440Z",
+    "duration": 2551.764,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
