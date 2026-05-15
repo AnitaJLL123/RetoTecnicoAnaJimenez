@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 7
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 1
         },
         "id": "e2e-chromium",
         "name": "e2e-chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 1
         },
         "id": "e2e-firefox",
         "name": "e2e-firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 1
         },
         "id": "e2e-webkit",
         "name": "e2e-webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 7
+          "actualWorkers": 1
         },
         "id": "api",
         "name": "api",
@@ -105,379 +105,1276 @@
     "updateSnapshots": "missing",
     "updateSourceMethod": "patch",
     "version": "1.60.0",
-    "workers": 7,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
     {
-      "title": "api\\products.api.spec.ts",
-      "file": "api/products.api.spec.ts",
+      "title": "e2e\\flujo1-credito-preciso.e2e.spec.ts.ts",
+      "file": "e2e/flujo1-credito-preciso.e2e.spec.ts.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "@api Fake Store API - Products",
-          "file": "api/products.api.spec.ts",
-          "line": 6,
-          "column": 6,
-          "specs": [
+          "title": "@e2e flujo q - Crédito preciso",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
             {
-              "title": "@api Caso 1: Obtener producto específico",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9544,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 1374,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.400Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-310c0-Obtener-producto-específico-api\\trace.zip"
-                        }
-                      ]
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-95876b788707e5ad4e49",
-              "file": "api/products.api.spec.ts",
-              "line": 13,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 2: Listar productos por categoría electronics",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:40:03.489Z",
                   "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
+                  "attachments": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 1403,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.374Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-d0ed0-s-por-categoría-electronics-api\\trace.zip"
-                        }
-                      ]
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-chromium\\video.webm"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "a105959f8b2fc909d662-30ca363f6c83a5eaa748",
-              "file": "api/products.api.spec.ts",
-              "line": 26,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 3: Crear producto exitosamente",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 895,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.423Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-a2b8f-Crear-producto-exitosamente-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-eabceac9d03e0163abb7",
-              "file": "api/products.api.spec.ts",
-              "line": 39,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 4: Actualizar producto completo",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 829,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.495Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-5585f-ctualizar-producto-completo-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-cef4d90a7dbca512aa1d",
-              "file": "api/products.api.spec.ts",
-              "line": 53,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 5: Producto no encontrado",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 4,
-                      "status": "passed",
-                      "duration": 1242,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.515Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-72eaf-so-5-Producto-no-encontrado-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-171a9003c0fd9c8a7853",
-              "file": "api/products.api.spec.ts",
-              "line": 67,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 6: Categoría inválida",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 5,
-                      "parallelIndex": 5,
-                      "status": "passed",
-                      "duration": 1436,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.594Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-74af8-i-Caso-6-Categoría-inválida-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-01934c302843e7510a86",
-              "file": "api/products.api.spec.ts",
-              "line": 79,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 7: Crear producto con payload vacío",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 6,
-                      "parallelIndex": 6,
-                      "status": "passed",
-                      "duration": 1296,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:22.474Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-94b21--producto-con-payload-vacío-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-dc32900bf0a5f71b9806",
-              "file": "api/products.api.spec.ts",
-              "line": 92,
-              "column": 7
-            },
-            {
-              "title": "@api Caso 8: Validación de límite de productos",
-              "ok": true,
-              "tags": [
-                "api",
-                "api"
-              ],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "api",
-                  "projectName": "api",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 365,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-05-15T01:39:23.431Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-244bd-ción-de-límite-de-productos-api\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a105959f8b2fc909d662-18e72af6612f8e8ea691",
-              "file": "api/products.api.spec.ts",
-              "line": 102,
-              "column": 7
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "32a682f9ebb007e6e8d8-72865bd665b0083495b5",
+          "file": "e2e/flujo1-credito-preciso.e2e.spec.ts.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "@e2e flujo q - Crédito preciso",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 19407,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo1-credito-preciso.e2e.spec.ts.ts:21:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo1-credito-preciso.e2e.spec.ts.ts:21:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:41:40.507Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "32a682f9ebb007e6e8d8-75e71202993a6017911c",
+          "file": "e2e/flujo1-credito-preciso.e2e.spec.ts.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "@e2e flujo q - Crédito preciso",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13182,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0 Capital\n+\n$0 Interés\n+\n$0 Seguro\n$0\nDurante 0 Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n \n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:43:46.869Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "32a682f9ebb007e6e8d8-1e0bcb76f85da9b430db",
+          "file": "e2e/flujo1-credito-preciso.e2e.spec.ts.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flujo2-hipotecario.e2e.spec.ts",
+      "file": "e2e/flujo2-hipotecario.e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@e2e Flujo 2 - Simulación exitosa Crédito Hipotecario Vivienda",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9311,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m205\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 3 años\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:40:13.643Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1a471e9b3e45688534ad-668196046deb2bfb3c8d",
+          "file": "e2e/flujo2-hipotecario.e2e.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 2 - Simulación exitosa Crédito Hipotecario Vivienda",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 19131,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo2-hipotecario.e2e.spec.ts:10:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo2-hipotecario.e2e.spec.ts:10:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:42:02.160Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "1a471e9b3e45688534ad-e933b8693c9fa8e7d082",
+          "file": "e2e/flujo2-hipotecario.e2e.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 2 - Simulación exitosa Crédito Hipotecario Vivienda",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13992,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m205\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0 Capital\n+\n$0 Interés\n+\n$0 Seguro\n$0\nDurante 0 Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n \n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 3 años\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:44:00.211Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1a471e9b3e45688534ad-4e67382d42aa522cac55",
+          "file": "e2e/flujo2-hipotecario.e2e.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flujo3-validaciones.e2e.spec.ts",
+      "file": "e2e/flujo3-validaciones.e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@e2e Flujo 3 - Validaciones de formularios financieros",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6298,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Valor del campo: \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:40:22.973Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "348a36fbc15e8bac4156-60ead814c271222e5b70",
+          "file": "e2e/flujo3-validaciones.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 3 - Validaciones de formularios financieros",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18032,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo3-validaciones.e2e.spec.ts:9:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo3-validaciones.e2e.spec.ts:9:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:42:23.089Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "348a36fbc15e8bac4156-5d5aff27a2e7c785e480",
+          "file": "e2e/flujo3-validaciones.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 3 - Validaciones de formularios financieros",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10101,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Valor del campo: \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:44:14.229Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "348a36fbc15e8bac4156-aed8e9bcbcadbb38c890",
+          "file": "e2e/flujo3-validaciones.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flujo4-calculos.e2e.spec.ts",
+      "file": "e2e/flujo4-calculos.e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@e2e Flujo 4 - Validar diferentes escenarios de cálculo",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30891,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 6,
+                        "line": 75
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:21\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:40:29.288Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-chromium\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6a9954ecdee4c4d9d447-f460012cc7644fc88957",
+          "file": "e2e/flujo4-calculos.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 4 - Validar diferentes escenarios de cálculo",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18687,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:5",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:5\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:42:42.888Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6a9954ecdee4c4d9d447-6a9c93b1ba8946f152a3",
+          "file": "e2e/flujo4-calculos.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 4 - Validar diferentes escenarios de cálculo",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 31104,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 6,
+                        "line": 75
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:21\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0 Capital\n+\n$0 Interés\n+\n$0 Seguro\n$0\nDurante 0 Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n \n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:44:24.363Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6a9954ecdee4c4d9d447-08632e7e32701c6c8841",
+          "file": "e2e/flujo4-calculos.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flujo5-comparacion.e2e.spec.ts",
+      "file": "e2e/flujo5-comparacion.e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@e2e Flujo 5 - Comparación crédito consumo vs hipotecario",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30729,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 6,
+                        "line": 157
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').filter({ hasText: /24 meses/i }).first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m     })\n \u001b[90m 156 |\u001b[39m     \u001b[33m.\u001b[39mfirst()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[33m.\u001b[39mclick({ force\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Plazo seleccionado:\"\u001b[39m\u001b[33m,\u001b[39m plazo)\u001b[33m;\u001b[39m\n \u001b[90m 160 |\u001b[39m }\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarPlazo (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:157:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:12:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:41:00.903Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f1aeb4bc104cc6ba87a8-82c1fd86ecb6e97e89c8",
+          "file": "e2e/flujo5-comparacion.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 5 - Comparación crédito consumo vs hipotecario",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 18884,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:43:03.435Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f1aeb4bc104cc6ba87a8-f7aab74a3cd449907640",
+          "file": "e2e/flujo5-comparacion.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 5 - Comparación crédito consumo vs hipotecario",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30459,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 6,
+                        "line": 157
+                      },
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').filter({ hasText: /24 meses/i }).first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:157\n\n\u001b[0m \u001b[90m 155 |\u001b[39m     })\n \u001b[90m 156 |\u001b[39m     \u001b[33m.\u001b[39mfirst()\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 157 |\u001b[39m     \u001b[33m.\u001b[39mclick({ force\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 158 |\u001b[39m\n \u001b[90m 159 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Plazo seleccionado:\"\u001b[39m\u001b[33m,\u001b[39m plazo)\u001b[33m;\u001b[39m\n \u001b[90m 160 |\u001b[39m }\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarPlazo (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:157:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:12:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                    },
+                    {
+                      "text": "Texto body después abrir plazo:\n"
+                    },
+                    {
+                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0 Capital\n+\n$0 Interés\n+\n$0 Seguro\n$0\nDurante 0 Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:44:56.128Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-webkit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-webkit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f1aeb4bc104cc6ba87a8-f356f0b42d84d39270e8",
+          "file": "e2e/flujo5-comparacion.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\flujo6-responsive.e2e.spec.ts",
+      "file": "e2e/flujo6-responsive.e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@e2e Flujo 6 - Responsive mobile",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-chromium",
+              "projectName": "e2e-chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6517,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:41:32.857Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "14dad34640833982954a-8a67597a5723ae88ce3b",
+          "file": "e2e/flujo6-responsive.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 6 - Responsive mobile",
+          "ok": false,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-firefox",
+              "projectName": "e2e-firefox",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 21087,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo6-responsive.e2e.spec.ts:14:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 78
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo6-responsive.e2e.spec.ts:14:3\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:43:24.098Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-firefox\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-firefox\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "14dad34640833982954a-345ff535fa97c5a0507d",
+          "file": "e2e/flujo6-responsive.e2e.spec.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "@e2e Flujo 6 - Responsive mobile",
+          "ok": true,
+          "tags": [
+            "e2e"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "e2e-webkit",
+              "projectName": "e2e-webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T05:45:27.400Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "14dad34640833982954a-484bd2b0c3a301aae35a",
+          "file": "e2e/flujo6-responsive.e2e.spec.ts",
+          "line": 5,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-15T01:39:21.297Z",
-    "duration": 2836.95,
+    "startTime": "2026-05-15T05:40:02.908Z",
+    "duration": 333148.654,
     "expected": 8,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 10,
     "flaky": 0
   }
 }

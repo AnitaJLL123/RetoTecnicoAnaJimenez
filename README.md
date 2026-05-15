@@ -107,6 +107,16 @@ Chromium
 Firefox
 WebKit
 
+## Certificados (Si se presenta error de certificado)
+Adicional si hay un tema de certificados debes realizar los siguientes pasos.
+1. Exportar el certificado corporativo
+2. Guardarlo como zscaler.cer (en mi caso)
+3. Guardar en el c dentro de una carpeta zscaler-root-ca.cer
+4. ejecutar el siguiente comando 
+
+set "NODE_EXTRA_CA_CERTS=c:\certs\zscaler-root-ca.cer"
+
+5. Ejecutar los comando de ejecución, pero debe ser en el mismo cmd, que se activo el certificado.
 ---
 
 # Ejecución de Pruebas

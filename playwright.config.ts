@@ -6,7 +6,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 1,
 
   reporter: [
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
@@ -14,7 +14,7 @@ export default defineConfig({
   ],
 
   use: {
-    trace: 'on-first-retry',
+    trace: 'on',
     screenshot: 'on',
     video: 'on',
   },
@@ -27,17 +27,13 @@ export default defineConfig({
 
       use: {
         ...devices['Desktop Chrome'],
-
         baseURL: 'https://www.pichincha.com',
-
-        viewport: null,
-
-        launchOptions: {
-          args: ['--start-maximized'],
+        viewport:{
+          width: 1366,
+          height: 768,
         },
-
-        screenshot: 'only-on-failure',
-        video: 'retain-on-failure',
+        screenshot: 'on',
+        video: 'on',
         trace: 'on-first-retry',
       },
     },
@@ -53,12 +49,12 @@ export default defineConfig({
         baseURL: 'https://www.pichincha.com',
 
         viewport: {
-          width: 1920,
-          height: 1080,
+          width: 1366,
+          height: 768,
         },
 
-        screenshot: 'only-on-failure',
-        video: 'retain-on-failure',
+        screenshot: 'on',
+        video: 'on',
         trace: 'on-first-retry',
       },
     },
@@ -74,12 +70,12 @@ export default defineConfig({
         baseURL: 'https://www.pichincha.com',
 
         viewport: {
-          width: 1440,
-          height: 900,
+          width: 1366,
+          height: 768,
         },
 
-        screenshot: 'only-on-failure',
-        video: 'retain-on-failure',
+        screenshot: 'on',
+        video: 'on',
         trace: 'on-first-retry',
       },
     },
