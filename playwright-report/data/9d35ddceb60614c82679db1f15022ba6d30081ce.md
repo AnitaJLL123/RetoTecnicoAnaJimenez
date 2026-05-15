@@ -1,0 +1,239 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: e2e\flujo4-calculos.e2e.spec.ts >> @e2e Flujo 4 - Validar diferentes escenarios de cálculo
+- Location: tests\e2e\flujo4-calculos.e2e.spec.ts:5:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.simulation-container__quota__detail')
+Expected pattern: /\$\d+[.,]\d{2}/
+Received string:  " $0  Capital  +  $0  Interés  +  $0  Seguro  $0  Durante 0 Con una tasa de interés referencial 0%"
+
+Call log:
+  - Expect "toContainText" with timeout 30000ms
+  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.simulation-container__quota__detail')
+    5 × locator resolved to <div _ngcontent-ng-c3131224939="" class="simulation-container__quota__detail">…</div>
+      - unexpected value " $0  Capital  +  $0  Interés  +  $0  Seguro  $0  Durante 0 Con una tasa de interés referencial 0%"
+
+```
+
+```yaml
+- paragraph: $0
+- paragraph: Capital
+- paragraph: +
+- paragraph: $0
+- paragraph: Interés
+- paragraph: +
+- paragraph: $0
+- paragraph: Seguro
+- paragraph: $0
+- paragraph:
+  - text: Durante
+  - strong: "0"
+- paragraph:
+  - text: Con una tasa de interés referencial
+  - strong: 0%
+```
+
+# Test source
+
+```ts
+  54  |   async completarSimulacion(datos: DatosCredito) {
+  55  |   await this.aceptarCookiesSiAparece();
+  56  |   await this.limpiarOverlays();
+  57  |   await this.seleccionarTipoCredito(datos.tipoCredito);
+  58  | 
+  59  |   if (datos.montoVivienda) {
+  60  |     await this.ingresarMontoVivienda(datos.montoVivienda);
+  61  |   }
+  62  | 
+  63  |   await this.ingresarMontoDeseado(datos.montoDeseado);
+  64  |   await this.seleccionarPlazo(datos.plazo);
+  65  |   await this.seleccionarAmortizacion();
+  66  |   await this.simular();
+  67  |   }
+  68  | 
+  69  |   async seleccionarTipoCredito(tipo: string) {
+  70  |   const frame = this.simuladorFrame();
+  71  |   await frame
+  72  |     .locator("div")
+  73  |     .filter({ hasText: /Selecciona un tipo de crédito/i })
+  74  |     .nth(2)
+  75  |     .click();
+  76  | 
+  77  |   const opciones = frame.locator(".bp-select-multiple__list-item");
+  78  |   await expect(opciones.first()).toBeVisible({ timeout: 10000 });
+  79  |   await opciones
+  80  |     .filter({ hasText: new RegExp(tipo, "i") })
+  81  |     .click();
+  82  |   }
+  83  | 
+  84  |  async ingresarMontoDeseado(monto: string) {
+  85  |   const frame = this.simuladorFrame();
+  86  |   await frame
+  87  |     .getByRole("textbox")
+  88  |     .last()
+  89  |     .fill(monto);
+  90  | }
+  91  | async ingresarMontoVivienda(monto: string) {
+  92  |   const frame = this.simuladorFrame();
+  93  |   await frame
+  94  |     .getByRole("textbox")
+  95  |     .first()
+  96  |     .fill(monto);
+  97  | }
+  98  | 
+  99  | async seleccionarPlazo(plazo: string) {
+  100 |   await this.limpiarOverlays();
+  101 | 
+  102 |   const frame = this.simuladorFrame();
+  103 | 
+  104 |   const comboPlazo = frame
+  105 |     .locator(".bp-select-multiple")
+  106 |     .filter({ hasText: /Selecciona un plazo/i })
+  107 |     .last();
+  108 | 
+  109 |   await comboPlazo.click({ force: true });
+  110 | 
+  111 |   const opciones = frame.locator(".bp-select-multiple__list-item");
+  112 | 
+  113 |   await expect(opciones.first()).toBeVisible({ timeout: 10000 });
+  114 | 
+  115 |   const textos = await opciones.allTextContents();
+  116 |   console.log("Plazos disponibles:", textos);
+  117 | 
+  118 |   const opcion = opciones
+  119 |   .filter({ hasText: new RegExp(plazo, "i") })
+  120 |   .first();
+  121 | 
+  122 | await expect(opcion).toBeVisible({ timeout: 10000 });
+  123 | 
+  124 | await opcion.scrollIntoViewIfNeeded();
+  125 | await opcion.focus();
+  126 | await this.page.keyboard.press("Enter");
+  127 | 
+  128 | console.log("Plazo seleccionado:", plazo);
+  129 | }
+  130 | 
+  131 | async seleccionarAmortizacion() {
+  132 |   const frame = this.simuladorFrame();
+  133 | 
+  134 |   await frame
+  135 |     .locator(".radio-item__input__desciption > .typography")
+  136 |     .first()
+  137 |     .click({ force: true });
+  138 | }
+  139 | async simular() {
+  140 |   const frame = this.simuladorFrame();
+  141 |   const btnSimular = frame.getByRole("button", {name: /simular/i});
+  142 |   await expect(btnSimular).toBeVisible({ timeout: 10000 });
+  143 |   await expect(btnSimular).toBeEnabled({ timeout: 10000 });
+  144 |   await btnSimular.click();
+  145 | }
+  146 | 
+  147 | async validarCuotaMensual() {
+  148 |   const frame = this.simuladorFrame();
+  149 | 
+  150 |   const resultado = frame.locator(
+  151 |     ".simulation-container__quota__detail"
+  152 |   );
+  153 | 
+> 154 |   await expect(resultado).toContainText(
+      |                           ^ Error: expect(locator).toContainText(expected) failed
+  155 |     /\$\d+[.,]\d{2}/,
+  156 |     {
+  157 |       timeout: 30000,
+  158 |     }
+  159 |   );
+  160 | }
+  161 | async validarTasaInteres() {
+  162 |   const frame = this.simuladorFrame();
+  163 | 
+  164 |   const resultado = frame.locator(
+  165 |     ".simulation-container__quota__detail"
+  166 |   );
+  167 | 
+  168 |   await expect(
+  169 |     resultado.getByText(/tasa de interés referencial/i)
+  170 |   ).toBeVisible();
+  171 | 
+  172 |   await expect(
+  173 |     resultado.getByText(/\d+[.,]?\d*%/)
+  174 |   ).toBeVisible();
+  175 | }
+  176 | async validarTablaAmortizacion() {
+  177 |   const frame = this.simuladorFrame();
+  178 | 
+  179 |   await frame
+  180 |     .getByRole("button", {
+  181 |       name: /ver tabla de amortización/i,
+  182 |     })
+  183 |     .click();
+  184 | 
+  185 |   await expect(
+  186 |     frame.locator(".modal_header")
+  187 |   ).toBeVisible({
+  188 |     timeout: 10000,
+  189 |   });
+  190 | }
+  191 | async validarMensajeError() {
+  192 |   const frame = this.simuladorFrame();
+  193 | 
+  194 |   await expect(
+  195 |     frame.getByText(/mínimo|máximo|inválido|ingresa|obligatorio/i)
+  196 |   ).toBeVisible({ timeout: 10000 });
+  197 | }
+  198 | 
+  199 | async validarCampoNumerico() {
+  200 |   const frame = this.simuladorFrame();
+  201 | 
+  202 |   const valor = await frame.getByRole("textbox").last().inputValue();
+  203 | 
+  204 |   console.log("Valor del campo:", valor);
+  205 | 
+  206 |   expect(valor).not.toBe("abc");
+  207 | }
+  208 | async obtenerCuotaMensual() {
+  209 |   const frame = this.simuladorFrame();
+  210 | 
+  211 |   const resultado = frame.locator(
+  212 |     ".simulation-container__quota__detail"
+  213 |   );
+  214 | 
+  215 |   await expect(resultado).toContainText(
+  216 |     /\$\d+[.,]\d{2}/,
+  217 |     {
+  218 |       timeout: 30000,
+  219 |     }
+  220 |   );
+  221 | 
+  222 |   const texto = await resultado.innerText();
+  223 | 
+  224 |   const valores =
+  225 |     texto.match(/\$\d+[.,]\d{2}/g) ?? [];
+  226 | 
+  227 |   const cuotaMensual =
+  228 |     valores[valores.length - 1];
+  229 | 
+  230 |   console.log(
+  231 |     "Cuota obtenida:",
+  232 |     cuotaMensual
+  233 |   );
+  234 | 
+  235 |   return cuotaMensual;
+  236 | }
+  237 | }
+```

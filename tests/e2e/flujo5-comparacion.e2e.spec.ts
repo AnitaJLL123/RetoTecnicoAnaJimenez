@@ -7,20 +7,24 @@ test('@e2e Flujo 5 - Comparación crédito consumo vs hipotecario', async ({ pag
 
   await simulador.irAlSimulador();
 
-  await simulador.seleccionarTipoCredito('PRECISO');
-  await simulador.ingresarMontoDeseado('30000');
-  await simulador.seleccionarPlazo('1 año');
-  await simulador.seleccionarAmortizacion();
-  await simulador.simular();
+  await simulador.completarSimulacion({
+    tipoCredito: 'PRECISO',
+    montoDeseado: '30000',
+    plazo: '2 años',
+  });
 
   const cuotaConsumo = await simulador.obtenerCuotaMensual();
 
-  await simulador.seleccionarTipoCredito('HIPOTECARIO VIVIENDA');
-  await simulador.ingresarMontoVivienda('80000');
-  await simulador.ingresarMontoDeseado('30000');
-  await simulador.seleccionarPlazo('10 años');
-  await simulador.seleccionarAmortizacion();
-  await simulador.simular();
+  await page.reload();
+  await simulador.aceptarCookiesSiAparece();
+  await simulador.limpiarOverlays();
+
+  await simulador.completarSimulacion({
+    tipoCredito: 'HIPOTECARIO VIVIENDA',
+    montoVivienda: '80000',
+    montoDeseado: '30000',
+    plazo: '10 años',
+  });
 
   const cuotaHipotecario = await simulador.obtenerCuotaMensual();
 

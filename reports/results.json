@@ -133,17 +133,11 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11252,
+                  "duration": 7266,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
-                    },
-                    {
-                      "text": "Texto body después abrir plazo:\n"
-                    },
-                    {
-                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
                     },
                     {
                       "text": "Plazo seleccionado: 6 meses\n"
@@ -151,7 +145,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:52:15.270Z",
+                  "startTime": "2026-05-15T06:36:26.361Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -190,33 +184,41 @@
               "projectName": "e2e-firefox",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 36559,
+                  "status": "failed",
+                  "duration": 18713,
                   "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\n    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo1-credito-preciso.e2e.spec.ts.ts:21:3",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 78
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m"
                   },
                   "errors": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
                       "location": {
                         "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
-                        "column": 6,
-                        "line": 75
+                        "column": 34,
+                        "line": 78
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:14)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo1-credito-preciso.e2e.spec.ts.ts:21:3\u001b[22m"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:78\n\n\u001b[0m \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n \u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:78:34)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:3)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo1-credito-preciso.e2e.spec.ts.ts:21:3\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:54:21.837Z",
+                  "startTime": "2026-05-15T06:37:54.148Z",
                   "annotations": [],
                   "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-firefox\\test-failed-1.png"
+                    },
                     {
                       "name": "video",
                       "contentType": "video/webm",
@@ -227,7 +229,12 @@
                       "contentType": "text/markdown",
                       "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-firefox\\error-context.md"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 78
+                  }
                 }
               ],
               "status": "unexpected"
@@ -251,8 +258,40 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12725,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:39:45.064Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo1-credito-preciso-2591b-e-flujo-q---Crédito-preciso-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "32a682f9ebb007e6e8d8-1e0bcb76f85da9b430db",
@@ -286,17 +325,11 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8992,
+                  "duration": 10399,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Cantidad opciones plazo: \u001b[33m205\u001b[39m\n"
-                    },
-                    {
-                      "text": "Texto body después abrir plazo:\n"
-                    },
-                    {
-                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 años'\u001b[39m,            \u001b[32m'3 años y 1 mes'\u001b[39m,     \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m,  \u001b[32m'3 años y 4 meses'\u001b[39m,   \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m,  \u001b[32m'3 años y 7 meses'\u001b[39m,   \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m,  \u001b[32m'3 años y 10 meses'\u001b[39m,  \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,            \u001b[32m'4 años y 1 mes'\u001b[39m,     \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m,  \u001b[32m'4 años y 4 meses'\u001b[39m,   \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m,  \u001b[32m'4 años y 7 meses'\u001b[39m,   \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m,  \u001b[32m'4 años y 10 meses'\u001b[39m,  \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m,            \u001b[32m'5 años y 1 mes'\u001b[39m,     \u001b[32m'5 años y 2 meses'\u001b[39m,\n  \u001b[32m'5 años y 3 meses'\u001b[39m,  \u001b[32m'5 años y 4 meses'\u001b[39m,   \u001b[32m'5 años y 5 meses'\u001b[39m,\n  \u001b[32m'5 años y 6 meses'\u001b[39m,  \u001b[32m'5 años y 7 meses'\u001b[39m,   \u001b[32m'5 años y 8 meses'\u001b[39m,\n  \u001b[32m'5 años y 9 meses'\u001b[39m,  \u001b[32m'5 años y 10 meses'\u001b[39m,  \u001b[32m'5 años y 11 meses'\u001b[39m,\n  \u001b[32m'6 años'\u001b[39m,            \u001b[32m'6 años y 1 mes'\u001b[39m,     \u001b[32m'6 años y 2 meses'\u001b[39m,\n  \u001b[32m'6 años y 3 meses'\u001b[39m,  \u001b[32m'6 años y 4 meses'\u001b[39m,   \u001b[32m'6 años y 5 meses'\u001b[39m,\n  \u001b[32m'6 años y 6 meses'\u001b[39m,  \u001b[32m'6 años y 7 meses'\u001b[39m,   \u001b[32m'6 años y 8 meses'\u001b[39m,\n  \u001b[32m'6 años y 9 meses'\u001b[39m,  \u001b[32m'6 años y 10 meses'\u001b[39m,  \u001b[32m'6 años y 11 meses'\u001b[39m,\n  \u001b[32m'7 años'\u001b[39m,            \u001b[32m'7 años y 1 mes'\u001b[39m,     \u001b[32m'7 años y 2 meses'\u001b[39m,\n  \u001b[32m'7 años y 3 meses'\u001b[39m,  \u001b[32m'7 años y 4 meses'\u001b[39m,   \u001b[32m'7 años y 5 meses'\u001b[39m,\n  \u001b[32m'7 años y 6 meses'\u001b[39m,  \u001b[32m'7 años y 7 meses'\u001b[39m,   \u001b[32m'7 años y 8 meses'\u001b[39m,\n  \u001b[32m'7 años y 9 meses'\u001b[39m,  \u001b[32m'7 años y 10 meses'\u001b[39m,  \u001b[32m'7 años y 11 meses'\u001b[39m,\n  \u001b[32m'8 años'\u001b[39m,            \u001b[32m'8 años y 1 mes'\u001b[39m,     \u001b[32m'8 años y 2 meses'\u001b[39m,\n  \u001b[32m'8 años y 3 meses'\u001b[39m,  \u001b[32m'8 años y 4 meses'\u001b[39m,   \u001b[32m'8 años y 5 meses'\u001b[39m,\n  \u001b[32m'8 años y 6 meses'\u001b[39m,  \u001b[32m'8 años y 7 meses'\u001b[39m,   \u001b[32m'8 años y 8 meses'\u001b[39m,\n  \u001b[32m'8 años y 9 meses'\u001b[39m,  \u001b[32m'8 años y 10 meses'\u001b[39m,  \u001b[32m'8 años y 11 meses'\u001b[39m,\n  \u001b[32m'9 años'\u001b[39m,            \u001b[32m'9 años y 1 mes'\u001b[39m,     \u001b[32m'9 años y 2 meses'\u001b[39m,\n  \u001b[32m'9 años y 3 meses'\u001b[39m,  \u001b[32m'9 años y 4 meses'\u001b[39m,   \u001b[32m'9 años y 5 meses'\u001b[39m,\n  \u001b[32m'9 años y 6 meses'\u001b[39m,  \u001b[32m'9 años y 7 meses'\u001b[39m,   \u001b[32m'9 años y 8 meses'\u001b[39m,\n  \u001b[32m'9 años y 9 meses'\u001b[39m,  \u001b[32m'9 años y 10 meses'\u001b[39m,  \u001b[32m'9 años y 11 meses'\u001b[39m,\n  \u001b[32m'10 años'\u001b[39m,           \u001b[32m'10 años y 1 mes'\u001b[39m,    \u001b[32m'10 años y 2 meses'\u001b[39m,\n  \u001b[32m'10 años y 3 meses'\u001b[39m, \u001b[32m'10 años y 4 meses'\u001b[39m,  \u001b[32m'10 años y 5 meses'\u001b[39m,\n  \u001b[32m'10 años y 6 meses'\u001b[39m, \u001b[32m'10 años y 7 meses'\u001b[39m,  \u001b[32m'10 años y 8 meses'\u001b[39m,\n  \u001b[32m'10 años y 9 meses'\u001b[39m, \u001b[32m'10 años y 10 meses'\u001b[39m, \u001b[32m'10 años y 11 meses'\u001b[39m,\n  \u001b[32m'11 años'\u001b[39m,           \u001b[32m'11 años y 1 mes'\u001b[39m,    \u001b[32m'11 años y 2 meses'\u001b[39m,\n  \u001b[32m'11 años y 3 meses'\u001b[39m,\n  ... 105 more items\n]\n"
                     },
                     {
                       "text": "Plazo seleccionado: 3 años\n"
@@ -304,7 +337,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:52:27.202Z",
+                  "startTime": "2026-05-15T06:36:34.157Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -330,7 +363,7 @@
         },
         {
           "title": "@e2e Flujo 2 - Simulación exitosa Crédito Hipotecario Vivienda",
-          "ok": false,
+          "ok": true,
           "tags": [
             "e2e"
           ],
@@ -343,52 +376,38 @@
               "projectName": "e2e-firefox",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30987,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
+                  "status": "passed",
+                  "duration": 10719,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 años'\u001b[39m,            \u001b[32m'3 años y 1 mes'\u001b[39m,     \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m,  \u001b[32m'3 años y 4 meses'\u001b[39m,   \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m,  \u001b[32m'3 años y 7 meses'\u001b[39m,   \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m,  \u001b[32m'3 años y 10 meses'\u001b[39m,  \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,            \u001b[32m'4 años y 1 mes'\u001b[39m,     \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m,  \u001b[32m'4 años y 4 meses'\u001b[39m,   \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m,  \u001b[32m'4 años y 7 meses'\u001b[39m,   \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m,  \u001b[32m'4 años y 10 meses'\u001b[39m,  \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m,            \u001b[32m'5 años y 1 mes'\u001b[39m,     \u001b[32m'5 años y 2 meses'\u001b[39m,\n  \u001b[32m'5 años y 3 meses'\u001b[39m,  \u001b[32m'5 años y 4 meses'\u001b[39m,   \u001b[32m'5 años y 5 meses'\u001b[39m,\n  \u001b[32m'5 años y 6 meses'\u001b[39m,  \u001b[32m'5 años y 7 meses'\u001b[39m,   \u001b[32m'5 años y 8 meses'\u001b[39m,\n  \u001b[32m'5 años y 9 meses'\u001b[39m,  \u001b[32m'5 años y 10 meses'\u001b[39m,  \u001b[32m'5 años y 11 meses'\u001b[39m,\n  \u001b[32m'6 años'\u001b[39m,            \u001b[32m'6 años y 1 mes'\u001b[39m,     \u001b[32m'6 años y 2 meses'\u001b[39m,\n  \u001b[32m'6 años y 3 meses'\u001b[39m,  \u001b[32m'6 años y 4 meses'\u001b[39m,   \u001b[32m'6 años y 5 meses'\u001b[39m,\n  \u001b[32m'6 años y 6 meses'\u001b[39m,  \u001b[32m'6 años y 7 meses'\u001b[39m,   \u001b[32m'6 años y 8 meses'\u001b[39m,\n  \u001b[32m'6 años y 9 meses'\u001b[39m,  \u001b[32m'6 años y 10 meses'\u001b[39m,  \u001b[32m'6 años y 11 meses'\u001b[39m,\n  \u001b[32m'7 años'\u001b[39m,            \u001b[32m'7 años y 1 mes'\u001b[39m,     \u001b[32m'7 años y 2 meses'\u001b[39m,\n  \u001b[32m'7 años y 3 meses'\u001b[39m,  \u001b[32m'7 años y 4 meses'\u001b[39m,   \u001b[32m'7 años y 5 meses'\u001b[39m,\n  \u001b[32m'7 años y 6 meses'\u001b[39m,  \u001b[32m'7 años y 7 meses'\u001b[39m,   \u001b[32m'7 años y 8 meses'\u001b[39m,\n  \u001b[32m'7 años y 9 meses'\u001b[39m,  \u001b[32m'7 años y 10 meses'\u001b[39m,  \u001b[32m'7 años y 11 meses'\u001b[39m,\n  \u001b[32m'8 años'\u001b[39m,            \u001b[32m'8 años y 1 mes'\u001b[39m,     \u001b[32m'8 años y 2 meses'\u001b[39m,\n  \u001b[32m'8 años y 3 meses'\u001b[39m,  \u001b[32m'8 años y 4 meses'\u001b[39m,   \u001b[32m'8 años y 5 meses'\u001b[39m,\n  \u001b[32m'8 años y 6 meses'\u001b[39m,  \u001b[32m'8 años y 7 meses'\u001b[39m,   \u001b[32m'8 años y 8 meses'\u001b[39m,\n  \u001b[32m'8 años y 9 meses'\u001b[39m,  \u001b[32m'8 años y 10 meses'\u001b[39m,  \u001b[32m'8 años y 11 meses'\u001b[39m,\n  \u001b[32m'9 años'\u001b[39m,            \u001b[32m'9 años y 1 mes'\u001b[39m,     \u001b[32m'9 años y 2 meses'\u001b[39m,\n  \u001b[32m'9 años y 3 meses'\u001b[39m,  \u001b[32m'9 años y 4 meses'\u001b[39m,   \u001b[32m'9 años y 5 meses'\u001b[39m,\n  \u001b[32m'9 años y 6 meses'\u001b[39m,  \u001b[32m'9 años y 7 meses'\u001b[39m,   \u001b[32m'9 años y 8 meses'\u001b[39m,\n  \u001b[32m'9 años y 9 meses'\u001b[39m,  \u001b[32m'9 años y 10 meses'\u001b[39m,  \u001b[32m'9 años y 11 meses'\u001b[39m,\n  \u001b[32m'10 años'\u001b[39m,           \u001b[32m'10 años y 1 mes'\u001b[39m,    \u001b[32m'10 años y 2 meses'\u001b[39m,\n  \u001b[32m'10 años y 3 meses'\u001b[39m, \u001b[32m'10 años y 4 meses'\u001b[39m,  \u001b[32m'10 años y 5 meses'\u001b[39m,\n  \u001b[32m'10 años y 6 meses'\u001b[39m, \u001b[32m'10 años y 7 meses'\u001b[39m,  \u001b[32m'10 años y 8 meses'\u001b[39m,\n  \u001b[32m'10 años y 9 meses'\u001b[39m, \u001b[32m'10 años y 10 meses'\u001b[39m, \u001b[32m'10 años y 11 meses'\u001b[39m,\n  \u001b[32m'11 años'\u001b[39m,           \u001b[32m'11 años y 1 mes'\u001b[39m,    \u001b[32m'11 años y 2 meses'\u001b[39m,\n  \u001b[32m'11 años y 3 meses'\u001b[39m,\n  ... 105 more items\n]\n"
                     },
                     {
-                      "location": {
-                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
-                        "column": 6,
-                        "line": 75
-                      },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:14)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo2-hipotecario.e2e.spec.ts:10:3\u001b[22m"
+                      "text": "Plazo seleccionado: 3 años\n"
                     }
                   ],
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:55:01.156Z",
+                  "startTime": "2026-05-15T06:38:15.011Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\test-failed-1.png"
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
                       "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-firefox\\error-context.md"
                     }
                   ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "1a471e9b3e45688534ad-e933b8693c9fa8e7d082",
@@ -409,8 +428,40 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10787,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 años'\u001b[39m,            \u001b[32m'3 años y 1 mes'\u001b[39m,     \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m,  \u001b[32m'3 años y 4 meses'\u001b[39m,   \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m,  \u001b[32m'3 años y 7 meses'\u001b[39m,   \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m,  \u001b[32m'3 años y 10 meses'\u001b[39m,  \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,            \u001b[32m'4 años y 1 mes'\u001b[39m,     \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m,  \u001b[32m'4 años y 4 meses'\u001b[39m,   \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m,  \u001b[32m'4 años y 7 meses'\u001b[39m,   \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m,  \u001b[32m'4 años y 10 meses'\u001b[39m,  \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m,            \u001b[32m'5 años y 1 mes'\u001b[39m,     \u001b[32m'5 años y 2 meses'\u001b[39m,\n  \u001b[32m'5 años y 3 meses'\u001b[39m,  \u001b[32m'5 años y 4 meses'\u001b[39m,   \u001b[32m'5 años y 5 meses'\u001b[39m,\n  \u001b[32m'5 años y 6 meses'\u001b[39m,  \u001b[32m'5 años y 7 meses'\u001b[39m,   \u001b[32m'5 años y 8 meses'\u001b[39m,\n  \u001b[32m'5 años y 9 meses'\u001b[39m,  \u001b[32m'5 años y 10 meses'\u001b[39m,  \u001b[32m'5 años y 11 meses'\u001b[39m,\n  \u001b[32m'6 años'\u001b[39m,            \u001b[32m'6 años y 1 mes'\u001b[39m,     \u001b[32m'6 años y 2 meses'\u001b[39m,\n  \u001b[32m'6 años y 3 meses'\u001b[39m,  \u001b[32m'6 años y 4 meses'\u001b[39m,   \u001b[32m'6 años y 5 meses'\u001b[39m,\n  \u001b[32m'6 años y 6 meses'\u001b[39m,  \u001b[32m'6 años y 7 meses'\u001b[39m,   \u001b[32m'6 años y 8 meses'\u001b[39m,\n  \u001b[32m'6 años y 9 meses'\u001b[39m,  \u001b[32m'6 años y 10 meses'\u001b[39m,  \u001b[32m'6 años y 11 meses'\u001b[39m,\n  \u001b[32m'7 años'\u001b[39m,            \u001b[32m'7 años y 1 mes'\u001b[39m,     \u001b[32m'7 años y 2 meses'\u001b[39m,\n  \u001b[32m'7 años y 3 meses'\u001b[39m,  \u001b[32m'7 años y 4 meses'\u001b[39m,   \u001b[32m'7 años y 5 meses'\u001b[39m,\n  \u001b[32m'7 años y 6 meses'\u001b[39m,  \u001b[32m'7 años y 7 meses'\u001b[39m,   \u001b[32m'7 años y 8 meses'\u001b[39m,\n  \u001b[32m'7 años y 9 meses'\u001b[39m,  \u001b[32m'7 años y 10 meses'\u001b[39m,  \u001b[32m'7 años y 11 meses'\u001b[39m,\n  \u001b[32m'8 años'\u001b[39m,            \u001b[32m'8 años y 1 mes'\u001b[39m,     \u001b[32m'8 años y 2 meses'\u001b[39m,\n  \u001b[32m'8 años y 3 meses'\u001b[39m,  \u001b[32m'8 años y 4 meses'\u001b[39m,   \u001b[32m'8 años y 5 meses'\u001b[39m,\n  \u001b[32m'8 años y 6 meses'\u001b[39m,  \u001b[32m'8 años y 7 meses'\u001b[39m,   \u001b[32m'8 años y 8 meses'\u001b[39m,\n  \u001b[32m'8 años y 9 meses'\u001b[39m,  \u001b[32m'8 años y 10 meses'\u001b[39m,  \u001b[32m'8 años y 11 meses'\u001b[39m,\n  \u001b[32m'9 años'\u001b[39m,            \u001b[32m'9 años y 1 mes'\u001b[39m,     \u001b[32m'9 años y 2 meses'\u001b[39m,\n  \u001b[32m'9 años y 3 meses'\u001b[39m,  \u001b[32m'9 años y 4 meses'\u001b[39m,   \u001b[32m'9 años y 5 meses'\u001b[39m,\n  \u001b[32m'9 años y 6 meses'\u001b[39m,  \u001b[32m'9 años y 7 meses'\u001b[39m,   \u001b[32m'9 años y 8 meses'\u001b[39m,\n  \u001b[32m'9 años y 9 meses'\u001b[39m,  \u001b[32m'9 años y 10 meses'\u001b[39m,  \u001b[32m'9 años y 11 meses'\u001b[39m,\n  \u001b[32m'10 años'\u001b[39m,           \u001b[32m'10 años y 1 mes'\u001b[39m,    \u001b[32m'10 años y 2 meses'\u001b[39m,\n  \u001b[32m'10 años y 3 meses'\u001b[39m, \u001b[32m'10 años y 4 meses'\u001b[39m,  \u001b[32m'10 años y 5 meses'\u001b[39m,\n  \u001b[32m'10 años y 6 meses'\u001b[39m, \u001b[32m'10 años y 7 meses'\u001b[39m,  \u001b[32m'10 años y 8 meses'\u001b[39m,\n  \u001b[32m'10 años y 9 meses'\u001b[39m, \u001b[32m'10 años y 10 meses'\u001b[39m, \u001b[32m'10 años y 11 meses'\u001b[39m,\n  \u001b[32m'11 años'\u001b[39m,           \u001b[32m'11 años y 1 mes'\u001b[39m,    \u001b[32m'11 años y 2 meses'\u001b[39m,\n  \u001b[32m'11 años y 3 meses'\u001b[39m,\n  ... 105 more items\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 3 años\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:39:58.186Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo2-hipotecario.e2e-709b6-rédito-Hipotecario-Vivienda-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "1a471e9b3e45688534ad-4e67382d42aa522cac55",
@@ -444,7 +495,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 30635,
+                  "duration": 30375,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -457,15 +508,15 @@
                       "location": {
                         "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
                         "column": 6,
-                        "line": 75
+                        "line": 81
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo3-validaciones.e2e.spec.ts:9:19\u001b[22m"
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').filter({ hasText: /PRECISO/i })\u001b[22m\n\u001b[2m    - locator resolved to <li tabindex=\"0\" id=\"undefined-item-0\" class=\"bp-select-multiple__list-item\">…</li>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"sticky-navbar-content\" class=\"c-sticky-navbar__content-mobile\">…</div> from <div class=\"bg-color\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - <div class=\"credit-simulator\" _ngcontent-ng-c3131224939=\"\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 100ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - <pichincha-typography class=\"hydrated\">VIVIENDA DE INTERÉS PÚBLICO</pichincha-typography> from <li tabindex=\"0\" id=\"undefined-item-3\" class=\"bp-select-multiple__list-item\">…</li> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 100ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"sticky-navbar-content\" class=\"c-sticky-navbar__content-mobile\">…</div> from <div class=\"bg-color\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"onetrust-policy-text\">By clicking “Accept All Cookies”, you agree to th…</div> from <div data-nosnippet=\"true\" id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - performing click action\u001b[22m\n\u001b[2m    - <li tabindex=\"0\" id=\"undefined-item-2\" class=\"bp-select-multiple__list-item\">…</li> intercepts pointer events\u001b[22m\n\u001b[2m  9 × retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"sticky-navbar-content\" class=\"c-sticky-navbar__content-mobile\">…</div> from <div class=\"bg-color\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"sticky-navbar-content\" class=\"c-sticky-navbar__content-mobile\">…</div> from <div class=\"bg-color\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div id=\"onetrust-policy-text\">By clicking “Accept All Cookies”, you agree to th…</div> from <div data-nosnippet=\"true\" id=\"onetrust-consent-sdk\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 500ms\u001b[22m\n\u001b[2m      - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - performing click action\u001b[22m\n\u001b[2m      - <li tabindex=\"0\" id=\"undefined-item-1\" class=\"bp-select-multiple__list-item\">…</li> intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m    - element is visible, enabled and stable\u001b[22m\n\u001b[2m    - scrolling into view if needed\u001b[22m\n\u001b[2m    - done scrolling\u001b[22m\n\u001b[2m    - <div id=\"sticky-navbar-content\" class=\"c-sticky-navbar__content-mobile\">…</div> from <div class=\"bg-color\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m  - retrying click action\u001b[22m\n\u001b[2m    - waiting 500ms\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:81\n\n\u001b[0m \u001b[90m 79 |\u001b[39m   \u001b[36mawait\u001b[39m opciones\n \u001b[90m 80 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(tipo\u001b[33m,\u001b[39m \u001b[32m\"i\"\u001b[39m) })\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 81 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 82 |\u001b[39m   }\n \u001b[90m 83 |\u001b[39m\n \u001b[90m 84 |\u001b[39m  \u001b[36masync\u001b[39m ingresarMontoDeseado(monto\u001b[33m:\u001b[39m string) {\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:81:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo3-validaciones.e2e.spec.ts:9:3\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:52:36.215Z",
+                  "startTime": "2026-05-15T06:36:44.582Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -496,7 +547,7 @@
         },
         {
           "title": "@e2e Flujo 3 - Validaciones de formularios financieros",
-          "ok": false,
+          "ok": true,
           "tags": [
             "e2e"
           ],
@@ -509,52 +560,35 @@
               "projectName": "e2e-firefox",
               "results": [
                 {
-                  "workerIndex": 6,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30880,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
+                  "status": "passed",
+                  "duration": 8846,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
-                        "column": 6,
-                        "line": 75
-                      },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo3-validaciones.e2e.spec.ts:9:19\u001b[22m"
+                      "text": "Valor del campo: \n"
                     }
                   ],
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:55:34.970Z",
+                  "startTime": "2026-05-15T06:38:26.401Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\test-failed-1.png"
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
                       "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-firefox\\error-context.md"
                     }
                   ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "348a36fbc15e8bac4156-5d5aff27a2e7c785e480",
@@ -575,8 +609,37 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8977,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Valor del campo: \n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:40:08.988Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo3-validaciones.e2-4ce4b--de-formularios-financieros-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "348a36fbc15e8bac4156-aed8e9bcbcadbb38c890",
@@ -609,34 +672,31 @@
                 {
                   "workerIndex": 1,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30389,
+                  "status": "failed",
+                  "duration": 18415,
                   "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\nExpected: enabled\nReceived: disabled\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\u001b[22m\n\u001b[2m    23 × locator resolved to <button disabled role=\"button\" aria-disabled=\"\" aria-label=\"Simular\" class=\"button secondary medium\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"disabled\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\nExpected: enabled\nReceived: disabled\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\u001b[22m\n\u001b[2m    23 × locator resolved to <button disabled role=\"button\" aria-disabled=\"\" aria-label=\"Simular\" class=\"button secondary medium\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"disabled\"\u001b[22m\n\n    at SimuladorCreditoPage.simular (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:143:28)\n    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:66:3)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:5",
+                    "location": {
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 28,
+                      "line": 143
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:143\n\n\u001b[0m \u001b[90m 141 |\u001b[39m   \u001b[36mconst\u001b[39m btnSimular \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[35m/simular/i\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m   \u001b[36mawait\u001b[39m expect(btnSimular)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m   \u001b[36mawait\u001b[39m expect(btnSimular)\u001b[33m.\u001b[39mtoBeEnabled({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m   \u001b[36mawait\u001b[39m btnSimular\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m }\n \u001b[90m 146 |\u001b[39m\u001b[0m"
                   },
                   "errors": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
                       "location": {
                         "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
-                        "column": 6,
-                        "line": 75
+                        "column": 28,
+                        "line": 143
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:21\u001b[22m"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeEnabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\nExpected: enabled\nReceived: disabled\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeEnabled\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().getByRole('button', { name: /simular/i })\u001b[22m\n\u001b[2m    23 × locator resolved to <button disabled role=\"button\" aria-disabled=\"\" aria-label=\"Simular\" class=\"button secondary medium\">…</button>\u001b[22m\n\u001b[2m       - unexpected value \"disabled\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:143\n\n\u001b[0m \u001b[90m 141 |\u001b[39m   \u001b[36mconst\u001b[39m btnSimular \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mgetByRole(\u001b[32m\"button\"\u001b[39m\u001b[33m,\u001b[39m {name\u001b[33m:\u001b[39m \u001b[35m/simular/i\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m 142 |\u001b[39m   \u001b[36mawait\u001b[39m expect(btnSimular)\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 143 |\u001b[39m   \u001b[36mawait\u001b[39m expect(btnSimular)\u001b[33m.\u001b[39mtoBeEnabled({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 144 |\u001b[39m   \u001b[36mawait\u001b[39m btnSimular\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 145 |\u001b[39m }\n \u001b[90m 146 |\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.simular (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:143:28)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:66:3)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:5\u001b[22m"
                     }
                   ],
                   "stdout": [
                     {
-                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
-                    },
-                    {
-                      "text": "Texto body después abrir plazo:\n"
-                    },
-                    {
-                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
                     },
                     {
                       "text": "Plazo seleccionado: 6 meses\n"
@@ -644,7 +704,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:53:07.697Z",
+                  "startTime": "2026-05-15T06:37:15.595Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -662,7 +722,12 @@
                       "contentType": "text/markdown",
                       "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-chromium\\error-context.md"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 28,
+                    "line": 143
+                  }
                 }
               ],
               "status": "unexpected"
@@ -688,10 +753,10 @@
               "projectName": "e2e-firefox",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "timedOut",
-                  "duration": 30823,
+                  "duration": 30302,
                   "error": {
                     "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
                     "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
@@ -706,13 +771,26 @@
                         "column": 6,
                         "line": 75
                       },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:21\u001b[22m"
+                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:57:14)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:17:5\u001b[22m"
                     }
                   ],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    },
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 1 año\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:56:08.073Z",
+                  "startTime": "2026-05-15T06:38:35.262Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -743,7 +821,7 @@
         },
         {
           "title": "@e2e Flujo 4 - Validar diferentes escenarios de cálculo",
-          "ok": true,
+          "ok": false,
           "tags": [
             "e2e"
           ],
@@ -754,8 +832,73 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30654,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 27,
+                        "line": 154
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.simulation-container__quota__detail')\nExpected pattern: \u001b[32m/\\$\\d+[.,]\\d{2}/\u001b[39m\nReceived string:  \u001b[31m\" $0  Capital  +  $0  Interés  +  $0  Seguro  $0  Durante 0 Con una tasa de interés referencial 0%\"\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.simulation-container__quota__detail')\u001b[22m\n\u001b[2m    5 × locator resolved to <div _ngcontent-ng-c3131224939=\"\" class=\"simulation-container__quota__detail\">…</div>\u001b[22m\n\u001b[2m      - unexpected value \" $0  Capital  +  $0  Interés  +  $0  Seguro  $0  Durante 0 Con una tasa de interés referencial 0%\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:154\n\n\u001b[0m \u001b[90m 152 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 153 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 154 |\u001b[39m   \u001b[36mawait\u001b[39m expect(resultado)\u001b[33m.\u001b[39mtoContainText(\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 155 |\u001b[39m     \u001b[35m/\\$\\d+[.,]\\d{2}/\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 156 |\u001b[39m     {\n \u001b[90m 157 |\u001b[39m       timeout\u001b[33m:\u001b[39m \u001b[35m30000\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.validarCuotaMensual (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:154:27)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo4-calculos.e2e.spec.ts:23:21\u001b[22m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 6 meses\n"
+                    },
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 1 año\n"
+                    },
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 2 años\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:40:17.982Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo4-calculos.e2e--e-79cba-entes-escenarios-de-cálculo-e2e-webkit\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
             }
           ],
           "id": "6a9954ecdee4c4d9d447-08632e7e32701c6c8841",
@@ -773,7 +916,7 @@
       "specs": [
         {
           "title": "@e2e Flujo 5 - Comparación crédito consumo vs hipotecario",
-          "ok": false,
+          "ok": true,
           "tags": [
             "e2e"
           ],
@@ -788,66 +931,48 @@
                 {
                   "workerIndex": 2,
                   "parallelIndex": 0,
-                  "status": "timedOut",
-                  "duration": 30806,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
-                        "column": 6,
-                        "line": 75
-                      },
-                      "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:75\n\n\u001b[0m \u001b[90m 73 |\u001b[39m     \u001b[33m.\u001b[39mfilter({ hasText\u001b[33m:\u001b[39m \u001b[35m/Selecciona un tipo de crédito/i\u001b[39m })\n \u001b[90m 74 |\u001b[39m     \u001b[33m.\u001b[39mnth(\u001b[35m2\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 75 |\u001b[39m     \u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 76 |\u001b[39m\n \u001b[90m 77 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:18:19\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 12378,
+                  "errors": [],
                   "stdout": [
                     {
-                      "text": "Cantidad opciones plazo: \u001b[33m58\u001b[39m\n"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
                     },
                     {
-                      "text": "Texto body después abrir plazo:\n"
+                      "text": "Plazo seleccionado: 2 años\n"
                     },
                     {
-                      "text": "¿Que crédito necesitas?\nIngresa los siguientes datos para empezar la simulación\n¿Como quieres pagar tus intereses?\nMétodo Francés\nCuotas se mantienen fijas en el tiempo\nMétodo Alemán\nCuotas variables que decrecen en el tiempo\nTus pagos mensuales serán\n$0Capital\n+\n$0Interés\n+\n$0Seguro\n$0\nDurante 0Con una tasa de interés referencial 0%\nDetalle de tu crédito\nCapital:\n$0\nTotal de interés:\n$0\nTotal seguro de desgravamen:\n$0\nTotal a pagar:\n$0\n*Valores referenciales, no son considerados como una oferta formal de préstamo.La oferta definitiva está sujeta al cumplimiento de las condiciones y políticas referentes a capacidad de pago.\n"
+                      "text": "Cuota obtenida: $1.48\n"
                     },
                     {
-                      "text": "Plazo seleccionado: 1 año\n"
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 años'\u001b[39m,            \u001b[32m'3 años y 1 mes'\u001b[39m,     \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m,  \u001b[32m'3 años y 4 meses'\u001b[39m,   \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m,  \u001b[32m'3 años y 7 meses'\u001b[39m,   \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m,  \u001b[32m'3 años y 10 meses'\u001b[39m,  \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,            \u001b[32m'4 años y 1 mes'\u001b[39m,     \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m,  \u001b[32m'4 años y 4 meses'\u001b[39m,   \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m,  \u001b[32m'4 años y 7 meses'\u001b[39m,   \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m,  \u001b[32m'4 años y 10 meses'\u001b[39m,  \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m,            \u001b[32m'5 años y 1 mes'\u001b[39m,     \u001b[32m'5 años y 2 meses'\u001b[39m,\n  \u001b[32m'5 años y 3 meses'\u001b[39m,  \u001b[32m'5 años y 4 meses'\u001b[39m,   \u001b[32m'5 años y 5 meses'\u001b[39m,\n  \u001b[32m'5 años y 6 meses'\u001b[39m,  \u001b[32m'5 años y 7 meses'\u001b[39m,   \u001b[32m'5 años y 8 meses'\u001b[39m,\n  \u001b[32m'5 años y 9 meses'\u001b[39m,  \u001b[32m'5 años y 10 meses'\u001b[39m,  \u001b[32m'5 años y 11 meses'\u001b[39m,\n  \u001b[32m'6 años'\u001b[39m,            \u001b[32m'6 años y 1 mes'\u001b[39m,     \u001b[32m'6 años y 2 meses'\u001b[39m,\n  \u001b[32m'6 años y 3 meses'\u001b[39m,  \u001b[32m'6 años y 4 meses'\u001b[39m,   \u001b[32m'6 años y 5 meses'\u001b[39m,\n  \u001b[32m'6 años y 6 meses'\u001b[39m,  \u001b[32m'6 años y 7 meses'\u001b[39m,   \u001b[32m'6 años y 8 meses'\u001b[39m,\n  \u001b[32m'6 años y 9 meses'\u001b[39m,  \u001b[32m'6 años y 10 meses'\u001b[39m,  \u001b[32m'6 años y 11 meses'\u001b[39m,\n  \u001b[32m'7 años'\u001b[39m,            \u001b[32m'7 años y 1 mes'\u001b[39m,     \u001b[32m'7 años y 2 meses'\u001b[39m,\n  \u001b[32m'7 años y 3 meses'\u001b[39m,  \u001b[32m'7 años y 4 meses'\u001b[39m,   \u001b[32m'7 años y 5 meses'\u001b[39m,\n  \u001b[32m'7 años y 6 meses'\u001b[39m,  \u001b[32m'7 años y 7 meses'\u001b[39m,   \u001b[32m'7 años y 8 meses'\u001b[39m,\n  \u001b[32m'7 años y 9 meses'\u001b[39m,  \u001b[32m'7 años y 10 meses'\u001b[39m,  \u001b[32m'7 años y 11 meses'\u001b[39m,\n  \u001b[32m'8 años'\u001b[39m,            \u001b[32m'8 años y 1 mes'\u001b[39m,     \u001b[32m'8 años y 2 meses'\u001b[39m,\n  \u001b[32m'8 años y 3 meses'\u001b[39m,  \u001b[32m'8 años y 4 meses'\u001b[39m,   \u001b[32m'8 años y 5 meses'\u001b[39m,\n  \u001b[32m'8 años y 6 meses'\u001b[39m,  \u001b[32m'8 años y 7 meses'\u001b[39m,   \u001b[32m'8 años y 8 meses'\u001b[39m,\n  \u001b[32m'8 años y 9 meses'\u001b[39m,  \u001b[32m'8 años y 10 meses'\u001b[39m,  \u001b[32m'8 años y 11 meses'\u001b[39m,\n  \u001b[32m'9 años'\u001b[39m,            \u001b[32m'9 años y 1 mes'\u001b[39m,     \u001b[32m'9 años y 2 meses'\u001b[39m,\n  \u001b[32m'9 años y 3 meses'\u001b[39m,  \u001b[32m'9 años y 4 meses'\u001b[39m,   \u001b[32m'9 años y 5 meses'\u001b[39m,\n  \u001b[32m'9 años y 6 meses'\u001b[39m,  \u001b[32m'9 años y 7 meses'\u001b[39m,   \u001b[32m'9 años y 8 meses'\u001b[39m,\n  \u001b[32m'9 años y 9 meses'\u001b[39m,  \u001b[32m'9 años y 10 meses'\u001b[39m,  \u001b[32m'9 años y 11 meses'\u001b[39m,\n  \u001b[32m'10 años'\u001b[39m,           \u001b[32m'10 años y 1 mes'\u001b[39m,    \u001b[32m'10 años y 2 meses'\u001b[39m,\n  \u001b[32m'10 años y 3 meses'\u001b[39m, \u001b[32m'10 años y 4 meses'\u001b[39m,  \u001b[32m'10 años y 5 meses'\u001b[39m,\n  \u001b[32m'10 años y 6 meses'\u001b[39m, \u001b[32m'10 años y 7 meses'\u001b[39m,  \u001b[32m'10 años y 8 meses'\u001b[39m,\n  \u001b[32m'10 años y 9 meses'\u001b[39m, \u001b[32m'10 años y 10 meses'\u001b[39m, \u001b[32m'10 años y 11 meses'\u001b[39m,\n  \u001b[32m'11 años'\u001b[39m,           \u001b[32m'11 años y 1 mes'\u001b[39m,    \u001b[32m'11 años y 2 meses'\u001b[39m,\n  \u001b[32m'11 años y 3 meses'\u001b[39m,\n  ... 105 more items\n]\n"
                     },
                     {
-                      "text": "Cuota obtenida: $2.74\n"
+                      "text": "Plazo seleccionado: 10 años\n"
+                    },
+                    {
+                      "text": "Cuota obtenida: $414,71\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:53:39.290Z",
+                  "startTime": "2026-05-15T06:37:34.694Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\test-failed-1.png"
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
                       "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-chromium\\error-context.md"
                     }
                   ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
           "id": "f1aeb4bc104cc6ba87a8-82c1fd86ecb6e97e89c8",
@@ -857,7 +982,7 @@
         },
         {
           "title": "@e2e Flujo 5 - Comparación crédito consumo vs hipotecario",
-          "ok": true,
+          "ok": false,
           "tags": [
             "e2e"
           ],
@@ -870,35 +995,46 @@
               "projectName": "e2e-firefox",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 5,
                   "parallelIndex": 0,
-                  "status": "interrupted",
-                  "duration": 21934,
+                  "status": "failed",
+                  "duration": 24815,
                   "error": {
-                    "message": "Error: locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\ajimenll\\AppData\\Local\\ms-playwright\\firefox-1522\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\ajimenll\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-DWA48A -juggler-pipe -silent\n<launched> pid=39724\n[pid=39724][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=39724][out] \n[pid=39724][out] Juggler listening to the pipe\n[pid=39724][out] console.error: \"Warning: unrecognized command line flag\" \"-foreground\"\n[pid=39724][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39724][out] console.error: \"Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/\" (new SyntaxError(\"XMLHttpRequest.open: '/' is not a valid URL.\", (void 0), 126))\n[pid=39724][out] console.error: services.settings: \n[pid=39724][out]   Message: EmptyDatabaseError: \"main/nimbus-desktop-experiments\" has not been synced yet\n[pid=39724][out]   Stack:\n[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5\n[pid=39724][out] list@resource://services-settings/Database.sys.mjs:96:13\n[pid=39724][out] \n[pid=39724][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false\n[pid=39724][out] console.error: (new NotFoundError(\"Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump\", \"resource://services-settings/Attachments.sys.mjs\", 48))\n[pid=39724][out] console.warn: \"Unable to find the attachment for\" \"fa0fc42c-d91d-fca7-34eb-806ff46062dc\"\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\n[pid=39724][err] JavaScript warning: https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__en.js, line 470: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
-                    "stack": "Error: locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\ajimenll\\AppData\\Local\\ms-playwright\\firefox-1522\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\ajimenll\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-DWA48A -juggler-pipe -silent\n<launched> pid=39724\n[pid=39724][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=39724][out] \n[pid=39724][out] Juggler listening to the pipe\n[pid=39724][out] console.error: \"Warning: unrecognized command line flag\" \"-foreground\"\n[pid=39724][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39724][out] console.error: \"Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/\" (new SyntaxError(\"XMLHttpRequest.open: '/' is not a valid URL.\", (void 0), 126))\n[pid=39724][out] console.error: services.settings: \n[pid=39724][out]   Message: EmptyDatabaseError: \"main/nimbus-desktop-experiments\" has not been synced yet\n[pid=39724][out]   Stack:\n[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5\n[pid=39724][out] list@resource://services-settings/Database.sys.mjs:96:13\n[pid=39724][out] \n[pid=39724][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false\n[pid=39724][out] console.error: (new NotFoundError(\"Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump\", \"resource://services-settings/Attachments.sys.mjs\", 48))\n[pid=39724][out] console.warn: \"Unable to find the attachment for\" \"fa0fc42c-d91d-fca7-34eb-806ff46062dc\"\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\n[pid=39724][err] JavaScript warning: https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__en.js, line 470: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n    at [pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5\n    at [pid=39724][out] list@resource://services-settings/Database.sys.mjs:96:13\n    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:19",
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n    at SimuladorCreditoPage.seleccionarPlazo (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:113:34)\n    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:64:3)\n    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:3",
                     "location": {
-                      "file": "[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs",
-                      "column": 5,
-                      "line": 19
-                    }
+                      "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                      "column": 34,
+                      "line": 113
+                    },
+                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:113\n\n\u001b[0m \u001b[90m 111 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 113 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 114 |\u001b[39m\n \u001b[90m 115 |\u001b[39m   \u001b[36mconst\u001b[39m textos \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m opciones\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Plazos disponibles:\"\u001b[39m\u001b[33m,\u001b[39m textos)\u001b[33m;\u001b[39m\u001b[0m"
                   },
                   "errors": [
                     {
                       "location": {
-                        "file": "[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs",
-                        "column": 5,
-                        "line": 19
+                        "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                        "column": 34,
+                        "line": 113
                       },
-                      "message": "Error: locator.click: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\ajimenll\\AppData\\Local\\ms-playwright\\firefox-1522\\firefox\\firefox.exe -no-remote -wait-for-browser -foreground -profile C:\\Users\\ajimenll\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-DWA48A -juggler-pipe -silent\n<launched> pid=39724\n[pid=39724][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 119: unreachable code after return statement\n[pid=39724][out] \n[pid=39724][out] Juggler listening to the pipe\n[pid=39724][out] console.error: \"Warning: unrecognized command line flag\" \"-foreground\"\n[pid=39724][err] JavaScript error: chrome://juggler/content/Helper.js, line 82: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]\n[pid=39724][out] console.error: \"Error fetching remote settings base url from CDN. Falling back to https://firefox-settings-attachments.cdn.mozilla.net/\" (new SyntaxError(\"XMLHttpRequest.open: '/' is not a valid URL.\", (void 0), 126))\n[pid=39724][out] console.error: services.settings: \n[pid=39724][out]   Message: EmptyDatabaseError: \"main/nimbus-desktop-experiments\" has not been synced yet\n[pid=39724][out]   Stack:\n[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5\n[pid=39724][out] list@resource://services-settings/Database.sys.mjs:96:13\n[pid=39724][out] \n[pid=39724][out] console.warn: services.settings: #fetchAttachment: Forcing fallbackToDump to false due to Utils.LOAD_DUMPS being false\n[pid=39724][out] console.error: (new NotFoundError(\"Could not find fa0fc42c-d91d-fca7-34eb-806ff46062dc in cache or dump\", \"resource://services-settings/Attachments.sys.mjs\", 48))\n[pid=39724][out] console.warn: \"Unable to find the attachment for\" \"fa0fc42c-d91d-fca7-34eb-806ff46062dc\"\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\n[pid=39724][err] JavaScript warning: https://www.gstatic.com/recaptcha/releases/Br0hYqpfWeFzYCAXLD4UuCIV/recaptcha__en.js, line 470: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.\n[pid=39724][err] JavaScript error: , line 0: SyntaxError: JSON.parse: expected double-quoted property name at line 1 column 153 of the JSON data\nCall log:\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('div').filter({ hasText: /Selecciona un tipo de crédito/i }).nth(2)\u001b[22m\n\u001b[2m    - locator resolved to <div tabindex=\"0\" class=\"bp-select-multiple__input-container\">…</div>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n\n\u001b[2m    at [pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5\u001b[22m\n\u001b[2m    at [pid=39724][out] list@resource://services-settings/Database.sys.mjs:96:13\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.seleccionarTipoCredito (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:75:6)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:19\u001b[22m"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('#block-pichincha-theme-content iframe').contentFrame().locator('.bp-select-multiple__list-item').first()\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\SimuladorCreditoPage.ts:113\n\n\u001b[0m \u001b[90m 111 |\u001b[39m   \u001b[36mconst\u001b[39m opciones \u001b[33m=\u001b[39m frame\u001b[33m.\u001b[39mlocator(\u001b[32m\".bp-select-multiple__list-item\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 113 |\u001b[39m   \u001b[36mawait\u001b[39m expect(opciones\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoBeVisible({ timeout\u001b[33m:\u001b[39m \u001b[35m10000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 114 |\u001b[39m\n \u001b[90m 115 |\u001b[39m   \u001b[36mconst\u001b[39m textos \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m opciones\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\n \u001b[90m 116 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Plazos disponibles:\"\u001b[39m\u001b[33m,\u001b[39m textos)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at SimuladorCreditoPage.seleccionarPlazo (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:113:34)\u001b[22m\n\u001b[2m    at SimuladorCreditoPage.completarSimulacion (C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts:64:3)\u001b[22m\n\u001b[2m    at C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\tests\\e2e\\flujo5-comparacion.e2e.spec.ts:10:3\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:56:42.157Z",
+                  "startTime": "2026-05-15T06:39:06.700Z",
                   "annotations": [],
                   "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-firefox\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-firefox\\video.webm"
+                    },
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
@@ -906,13 +1042,13 @@
                     }
                   ],
                   "errorLocation": {
-                    "file": "[pid=39724][out]     EmptyDatabaseError@resource://services-settings/Database.sys.mjs",
-                    "column": 5,
-                    "line": 19
+                    "file": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\pages\\SimuladorCreditoPage.ts",
+                    "column": 34,
+                    "line": 113
                   }
                 }
               ],
-              "status": "skipped"
+              "status": "unexpected"
             }
           ],
           "id": "f1aeb4bc104cc6ba87a8-f7aab74a3cd449907640",
@@ -933,8 +1069,52 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21087,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 meses'\u001b[39m,          \u001b[32m'4 meses'\u001b[39m,           \u001b[32m'5 meses'\u001b[39m,\n  \u001b[32m'6 meses'\u001b[39m,          \u001b[32m'7 meses'\u001b[39m,           \u001b[32m'8 meses'\u001b[39m,\n  \u001b[32m'9 meses'\u001b[39m,          \u001b[32m'10 meses'\u001b[39m,          \u001b[32m'11 meses'\u001b[39m,\n  \u001b[32m'1 año'\u001b[39m,            \u001b[32m'1 año y 1 mes'\u001b[39m,     \u001b[32m'1 año y 2 meses'\u001b[39m,\n  \u001b[32m'1 año y 3 meses'\u001b[39m,  \u001b[32m'1 año y 4 meses'\u001b[39m,   \u001b[32m'1 año y 5 meses'\u001b[39m,\n  \u001b[32m'1 año y 6 meses'\u001b[39m,  \u001b[32m'1 año y 7 meses'\u001b[39m,   \u001b[32m'1 año y 8 meses'\u001b[39m,\n  \u001b[32m'1 año y 9 meses'\u001b[39m,  \u001b[32m'1 año y 10 meses'\u001b[39m,  \u001b[32m'1 año y 11 meses'\u001b[39m,\n  \u001b[32m'2 años'\u001b[39m,           \u001b[32m'2 años y 1 mes'\u001b[39m,    \u001b[32m'2 años y 2 meses'\u001b[39m,\n  \u001b[32m'2 años y 3 meses'\u001b[39m, \u001b[32m'2 años y 4 meses'\u001b[39m,  \u001b[32m'2 años y 5 meses'\u001b[39m,\n  \u001b[32m'2 años y 6 meses'\u001b[39m, \u001b[32m'2 años y 7 meses'\u001b[39m,  \u001b[32m'2 años y 8 meses'\u001b[39m,\n  \u001b[32m'2 años y 9 meses'\u001b[39m, \u001b[32m'2 años y 10 meses'\u001b[39m, \u001b[32m'2 años y 11 meses'\u001b[39m,\n  \u001b[32m'3 años'\u001b[39m,           \u001b[32m'3 años y 1 mes'\u001b[39m,    \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m, \u001b[32m'3 años y 4 meses'\u001b[39m,  \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m, \u001b[32m'3 años y 7 meses'\u001b[39m,  \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m, \u001b[32m'3 años y 10 meses'\u001b[39m, \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,           \u001b[32m'4 años y 1 mes'\u001b[39m,    \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m, \u001b[32m'4 años y 4 meses'\u001b[39m,  \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m, \u001b[32m'4 años y 7 meses'\u001b[39m,  \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m, \u001b[32m'4 años y 10 meses'\u001b[39m, \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 2 años\n"
+                    },
+                    {
+                      "text": "Cuota obtenida: $1.48\n"
+                    },
+                    {
+                      "text": "Plazos disponibles: [\n  \u001b[32m'3 años'\u001b[39m,            \u001b[32m'3 años y 1 mes'\u001b[39m,     \u001b[32m'3 años y 2 meses'\u001b[39m,\n  \u001b[32m'3 años y 3 meses'\u001b[39m,  \u001b[32m'3 años y 4 meses'\u001b[39m,   \u001b[32m'3 años y 5 meses'\u001b[39m,\n  \u001b[32m'3 años y 6 meses'\u001b[39m,  \u001b[32m'3 años y 7 meses'\u001b[39m,   \u001b[32m'3 años y 8 meses'\u001b[39m,\n  \u001b[32m'3 años y 9 meses'\u001b[39m,  \u001b[32m'3 años y 10 meses'\u001b[39m,  \u001b[32m'3 años y 11 meses'\u001b[39m,\n  \u001b[32m'4 años'\u001b[39m,            \u001b[32m'4 años y 1 mes'\u001b[39m,     \u001b[32m'4 años y 2 meses'\u001b[39m,\n  \u001b[32m'4 años y 3 meses'\u001b[39m,  \u001b[32m'4 años y 4 meses'\u001b[39m,   \u001b[32m'4 años y 5 meses'\u001b[39m,\n  \u001b[32m'4 años y 6 meses'\u001b[39m,  \u001b[32m'4 años y 7 meses'\u001b[39m,   \u001b[32m'4 años y 8 meses'\u001b[39m,\n  \u001b[32m'4 años y 9 meses'\u001b[39m,  \u001b[32m'4 años y 10 meses'\u001b[39m,  \u001b[32m'4 años y 11 meses'\u001b[39m,\n  \u001b[32m'5 años'\u001b[39m,            \u001b[32m'5 años y 1 mes'\u001b[39m,     \u001b[32m'5 años y 2 meses'\u001b[39m,\n  \u001b[32m'5 años y 3 meses'\u001b[39m,  \u001b[32m'5 años y 4 meses'\u001b[39m,   \u001b[32m'5 años y 5 meses'\u001b[39m,\n  \u001b[32m'5 años y 6 meses'\u001b[39m,  \u001b[32m'5 años y 7 meses'\u001b[39m,   \u001b[32m'5 años y 8 meses'\u001b[39m,\n  \u001b[32m'5 años y 9 meses'\u001b[39m,  \u001b[32m'5 años y 10 meses'\u001b[39m,  \u001b[32m'5 años y 11 meses'\u001b[39m,\n  \u001b[32m'6 años'\u001b[39m,            \u001b[32m'6 años y 1 mes'\u001b[39m,     \u001b[32m'6 años y 2 meses'\u001b[39m,\n  \u001b[32m'6 años y 3 meses'\u001b[39m,  \u001b[32m'6 años y 4 meses'\u001b[39m,   \u001b[32m'6 años y 5 meses'\u001b[39m,\n  \u001b[32m'6 años y 6 meses'\u001b[39m,  \u001b[32m'6 años y 7 meses'\u001b[39m,   \u001b[32m'6 años y 8 meses'\u001b[39m,\n  \u001b[32m'6 años y 9 meses'\u001b[39m,  \u001b[32m'6 años y 10 meses'\u001b[39m,  \u001b[32m'6 años y 11 meses'\u001b[39m,\n  \u001b[32m'7 años'\u001b[39m,            \u001b[32m'7 años y 1 mes'\u001b[39m,     \u001b[32m'7 años y 2 meses'\u001b[39m,\n  \u001b[32m'7 años y 3 meses'\u001b[39m,  \u001b[32m'7 años y 4 meses'\u001b[39m,   \u001b[32m'7 años y 5 meses'\u001b[39m,\n  \u001b[32m'7 años y 6 meses'\u001b[39m,  \u001b[32m'7 años y 7 meses'\u001b[39m,   \u001b[32m'7 años y 8 meses'\u001b[39m,\n  \u001b[32m'7 años y 9 meses'\u001b[39m,  \u001b[32m'7 años y 10 meses'\u001b[39m,  \u001b[32m'7 años y 11 meses'\u001b[39m,\n  \u001b[32m'8 años'\u001b[39m,            \u001b[32m'8 años y 1 mes'\u001b[39m,     \u001b[32m'8 años y 2 meses'\u001b[39m,\n  \u001b[32m'8 años y 3 meses'\u001b[39m,  \u001b[32m'8 años y 4 meses'\u001b[39m,   \u001b[32m'8 años y 5 meses'\u001b[39m,\n  \u001b[32m'8 años y 6 meses'\u001b[39m,  \u001b[32m'8 años y 7 meses'\u001b[39m,   \u001b[32m'8 años y 8 meses'\u001b[39m,\n  \u001b[32m'8 años y 9 meses'\u001b[39m,  \u001b[32m'8 años y 10 meses'\u001b[39m,  \u001b[32m'8 años y 11 meses'\u001b[39m,\n  \u001b[32m'9 años'\u001b[39m,            \u001b[32m'9 años y 1 mes'\u001b[39m,     \u001b[32m'9 años y 2 meses'\u001b[39m,\n  \u001b[32m'9 años y 3 meses'\u001b[39m,  \u001b[32m'9 años y 4 meses'\u001b[39m,   \u001b[32m'9 años y 5 meses'\u001b[39m,\n  \u001b[32m'9 años y 6 meses'\u001b[39m,  \u001b[32m'9 años y 7 meses'\u001b[39m,   \u001b[32m'9 años y 8 meses'\u001b[39m,\n  \u001b[32m'9 años y 9 meses'\u001b[39m,  \u001b[32m'9 años y 10 meses'\u001b[39m,  \u001b[32m'9 años y 11 meses'\u001b[39m,\n  \u001b[32m'10 años'\u001b[39m,           \u001b[32m'10 años y 1 mes'\u001b[39m,    \u001b[32m'10 años y 2 meses'\u001b[39m,\n  \u001b[32m'10 años y 3 meses'\u001b[39m, \u001b[32m'10 años y 4 meses'\u001b[39m,  \u001b[32m'10 años y 5 meses'\u001b[39m,\n  \u001b[32m'10 años y 6 meses'\u001b[39m, \u001b[32m'10 años y 7 meses'\u001b[39m,  \u001b[32m'10 años y 8 meses'\u001b[39m,\n  \u001b[32m'10 años y 9 meses'\u001b[39m, \u001b[32m'10 años y 10 meses'\u001b[39m, \u001b[32m'10 años y 11 meses'\u001b[39m,\n  \u001b[32m'11 años'\u001b[39m,           \u001b[32m'11 años y 1 mes'\u001b[39m,    \u001b[32m'11 años y 2 meses'\u001b[39m,\n  \u001b[32m'11 años y 3 meses'\u001b[39m,\n  ... 105 more items\n]\n"
+                    },
+                    {
+                      "text": "Plazo seleccionado: 10 años\n"
+                    },
+                    {
+                      "text": "Cuota obtenida: $414,71\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:40:49.368Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo5-comparacion.e2e-5ffa4-dito-consumo-vs-hipotecario-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "f1aeb4bc104cc6ba87a8-f356f0b42d84d39270e8",
@@ -965,15 +1145,15 @@
               "projectName": "e2e-chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8164,
+                  "duration": 6152,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-15T05:54:11.459Z",
+                  "startTime": "2026-05-15T06:37:47.275Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1010,8 +1190,33 @@
               "expectedStatus": "passed",
               "projectId": "e2e-firefox",
               "projectName": "e2e-firefox",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:39:33.361Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-firefox\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-firefox\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "14dad34640833982954a-345ff535fa97c5a0507d",
@@ -1032,8 +1237,33 @@
               "expectedStatus": "passed",
               "projectId": "e2e-webkit",
               "projectName": "e2e-webkit",
-              "results": [],
-              "status": "skipped"
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7818,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-15T06:41:10.634Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-webkit\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\e2e-flujo6-responsive.e2e--e2e-Flujo-6---Responsive-mobile-e2e-webkit\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
             }
           ],
           "id": "14dad34640833982954a-484bd2b0c3a301aae35a",
@@ -1042,15 +1272,376 @@
           "column": 5
         }
       ]
+    },
+    {
+      "title": "api\\products.api.spec.ts",
+      "file": "api/products.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "@api Fake Store API - Products",
+          "file": "api/products.api.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@api Caso 1: Obtener producto específico",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2760,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:19.232Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-310c0-Obtener-producto-específico-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-95876b788707e5ad4e49",
+              "file": "api/products.api.spec.ts",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 2: Listar productos por categoría electronics",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 255,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:22.042Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-d0ed0-s-por-categoría-electronics-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-30ca363f6c83a5eaa748",
+              "file": "api/products.api.spec.ts",
+              "line": 26,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 3: Crear producto exitosamente",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 238,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:22.323Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-a2b8f-Crear-producto-exitosamente-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-eabceac9d03e0163abb7",
+              "file": "api/products.api.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 4: Actualizar producto completo",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 245,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:22.580Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-5585f-ctualizar-producto-completo-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-cef4d90a7dbca512aa1d",
+              "file": "api/products.api.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 5: Producto no encontrado",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 269,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:22.850Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-72eaf-so-5-Producto-no-encontrado-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-171a9003c0fd9c8a7853",
+              "file": "api/products.api.spec.ts",
+              "line": 67,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 6: Categoría inválida",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 233,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:23.142Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-74af8-i-Caso-6-Categoría-inválida-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-01934c302843e7510a86",
+              "file": "api/products.api.spec.ts",
+              "line": 79,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 7: Crear producto con payload vacío",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 239,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:23.404Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-94b21--producto-con-payload-vacío-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-dc32900bf0a5f71b9806",
+              "file": "api/products.api.spec.ts",
+              "line": 92,
+              "column": 7
+            },
+            {
+              "title": "@api Caso 8: Validación de límite de productos",
+              "ok": true,
+              "tags": [
+                "api",
+                "api"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 241,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-15T06:41:23.662Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\ajimenll\\OneDrive - NTT DATA EMEAL\\Desktop\\RetoQE\\RetoTecnicoAnaJimenez\\test-results\\api-products.api--api-Fake-244bd-ción-de-límite-de-productos-api\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a105959f8b2fc909d662-18e72af6612f8e8ea691",
+              "file": "api/products.api.spec.ts",
+              "line": 102,
+              "column": 7
+            }
+          ]
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-15T05:52:14.666Z",
-    "duration": 293210.62,
-    "expected": 3,
-    "skipped": 8,
-    "unexpected": 7,
+    "startTime": "2026-05-15T06:36:25.586Z",
+    "duration": 298379.74100000004,
+    "expected": 20,
+    "skipped": 0,
+    "unexpected": 6,
     "flaky": 0
   }
 }

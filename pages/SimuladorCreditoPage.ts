@@ -101,62 +101,31 @@ async seleccionarPlazo(plazo: string) {
 
   const frame = this.simuladorFrame();
 
-  // Validar que el formulario ya cargó el plazo
-  await expect(frame.locator("body")).toContainText(
-    /Selecciona un plazo/i,
-    {
-      timeout: 10000,
-    }
-  );
-
-  // Combo plazo
   const comboPlazo = frame
     .locator(".bp-select-multiple")
     .filter({ hasText: /Selecciona un plazo/i })
     .last();
 
-  await expect(comboPlazo).toBeVisible({
-    timeout: 10000,
-  });
+  await comboPlazo.click({ force: true });
 
-  await comboPlazo.scrollIntoViewIfNeeded();
-
-  // Click en área realmente clickeable
-  await comboPlazo
-    .locator(".bp-select-multiple__input-container")
-    .click({ force: true });
-
-  // Espera pequeña para render dropdown
-  await this.page.waitForTimeout(500);
-
-  // Opciones
   const opciones = frame.locator(".bp-select-multiple__list-item");
 
-  const cantidadOpciones = await opciones.count();
+  await expect(opciones.first()).toBeVisible({ timeout: 10000 });
 
-  console.log("Cantidad opciones plazo:", cantidadOpciones);
+  const textos = await opciones.allTextContents();
+  console.log("Plazos disponibles:", textos);
 
-  // Debug completo
-  console.log(
-    "Texto body después abrir plazo:"
-  );
+  const opcion = opciones
+  .filter({ hasText: new RegExp(plazo, "i") })
+  .first();
 
-  console.log(
-    await frame.locator("body").innerText()
-  );
+await expect(opcion).toBeVisible({ timeout: 10000 });
 
-  // Validación
-  expect(cantidadOpciones).toBeGreaterThan(0);
+await opcion.scrollIntoViewIfNeeded();
+await opcion.focus();
+await this.page.keyboard.press("Enter");
 
-  // Seleccionar plazo
-  await opciones
-    .filter({
-      hasText: new RegExp(plazo, "i"),
-    })
-    .first()
-    .click({ force: true });
-
-  console.log("Plazo seleccionado:", plazo);
+console.log("Plazo seleccionado:", plazo);
 }
 
 async seleccionarAmortizacion() {
